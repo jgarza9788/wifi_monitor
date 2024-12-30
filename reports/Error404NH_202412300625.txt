@@ -1,0 +1,10 @@
+SSID: Error 404 NH
+Datetime: 12/30/2024 06:25:46
+Datetime_alt: 202412300625
+
+Pinging google.com [64.233.185.139] with 32 bytes of data:
+Reply from 64.233.185.139: bytes=32 time=16ms TTL=106
+Reply from 64.233.185.139: bytes=32 time=20ms TTL=106
+Reply from 64.233.185.139: bytes=32 time=13ms TTL=106
+Reply from 64.233.185.139: bytes=32 time=13ms TTL=106
+Reply from 64.233.185.139: bytes=32 time=24ms TTL=106
