@@ -13,7 +13,16 @@ Write-Host "Custom DateTime: $dateTimeCustom"
 $nameSSID = $SSID -replace " ", ""
 
 # Construct the file name
-$File = "$($nameSSID)_$($dateTimeCustom).txt"
+$folder = "reports"
+
+if (-not (Test-Path -Path $folder)) {
+    New-Item -ItemType Directory -Path $folder 
+    Write-Host "Created folder: $folder"
+} else {
+    Write-Host "Folder already exists: $folder"
+}
+
+$File = "$($folder)\$($nameSSID)_$($dateTimeCustom).txt"
 Write-Host "File Name: $File"
 
 # Write SSID and datetime to the file
