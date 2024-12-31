@@ -6,3 +6,17 @@ Pinging google.com [74.125.138.139] with 32 bytes of data:
 Reply from 74.125.138.139: bytes=32 time=10ms TTL=107
 Reply from 74.125.138.139: bytes=32 time=18ms TTL=107
 Reply from 74.125.138.139: bytes=32 time=16ms TTL=107
+Reply from 74.125.138.139: bytes=32 time=15ms TTL=107
+Reply from 74.125.138.139: bytes=32 time=14ms TTL=107
+Reply from 74.125.138.139: bytes=32 time=14ms TTL=107
+Reply from 74.125.138.139: bytes=32 time=13ms TTL=107
+Reply from 74.125.138.139: bytes=32 time=17ms TTL=107
+Reply from 74.125.138.139: bytes=32 time=12ms TTL=107
+Reply from 74.125.138.139: bytes=32 time=17ms TTL=107
+Reply from 74.125.138.139: bytes=32 time=19ms TTL=107
+Reply from 74.125.138.139: bytes=32 time=12ms TTL=107
+Reply from 74.125.138.139: bytes=32 time=12ms TTL=107
+Reply from 74.125.138.139: bytes=32 time=12ms TTL=107
+Reply from 74.125.138.139: bytes=32 time=15ms TTL=107
+Reply from 74.125.138.139: bytes=32 time=12ms TTL=107
+Reply from 74.125.138.139: bytes=32 time=10ms TTL=107
