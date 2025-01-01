@@ -15,4 +15,6 @@ DD-WRT v3.0-r33675M kongac (11/03/17)
 
 # installation
 [Netgear_R7000P Installation](https://wiki.dd-wrt.com/wiki/index.php/Netgear_R7000P#Installation)
+# get more firmwares
+[betas](https://download1.dd-wrt.com/dd-wrtv2/downloads/betas/)
 
