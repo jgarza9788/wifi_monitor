@@ -78,3 +78,10 @@ Reply from 172.253.124.102: bytes=32 time=18ms TTL=106
 Reply from 172.253.124.102: bytes=32 time=17ms TTL=106
 Reply from 172.253.124.102: bytes=32 time=19ms TTL=106
 Reply from 172.253.124.102: bytes=32 time=20ms TTL=106
+Reply from 172.253.124.102: bytes=32 time=12ms TTL=106
+Reply from 172.253.124.102: bytes=32 time=32ms TTL=106
+Reply from 172.253.124.102: bytes=32 time=15ms TTL=106
+Reply from 172.253.124.102: bytes=32 time=17ms TTL=106
+Reply from 172.253.124.102: bytes=32 time=15ms TTL=106
+Reply from 172.253.124.102: bytes=32 time=13ms TTL=106
+Reply from 172.253.124.102: bytes=32 time=15ms TTL=106
