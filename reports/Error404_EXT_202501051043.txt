@@ -66,3 +66,45 @@ Reply from 108.177.122.102: bytes=32 time=16ms TTL=107
 Reply from 108.177.122.102: bytes=32 time=41ms TTL=107
 Reply from 108.177.122.102: bytes=32 time=15ms TTL=107
 Reply from 108.177.122.102: bytes=32 time=17ms TTL=107
+Reply from 108.177.122.102: bytes=32 time=12ms TTL=107
+Reply from 108.177.122.102: bytes=32 time=13ms TTL=107
+Reply from 108.177.122.102: bytes=32 time=14ms TTL=107
+Reply from 108.177.122.102: bytes=32 time=11ms TTL=107
+Reply from 108.177.122.102: bytes=32 time=16ms TTL=107
+Reply from 108.177.122.102: bytes=32 time=15ms TTL=107
+Reply from 108.177.122.102: bytes=32 time=14ms TTL=107
+Reply from 108.177.122.102: bytes=32 time=38ms TTL=107
+Reply from 108.177.122.102: bytes=32 time=16ms TTL=107
+Reply from 108.177.122.102: bytes=32 time=14ms TTL=107
+Reply from 108.177.122.102: bytes=32 time=18ms TTL=107
+Reply from 108.177.122.102: bytes=32 time=15ms TTL=107
+Reply from 108.177.122.102: bytes=32 time=14ms TTL=107
+Reply from 108.177.122.102: bytes=32 time=16ms TTL=107
+Reply from 108.177.122.102: bytes=32 time=17ms TTL=107
+Reply from 108.177.122.102: bytes=32 time=16ms TTL=107
+Reply from 108.177.122.102: bytes=32 time=12ms TTL=107
+Reply from 108.177.122.102: bytes=32 time=16ms TTL=107
+Reply from 108.177.122.102: bytes=32 time=16ms TTL=107
+Reply from 108.177.122.102: bytes=32 time=13ms TTL=107
+Reply from 108.177.122.102: bytes=32 time=12ms TTL=107
+Reply from 108.177.122.102: bytes=32 time=15ms TTL=107
+Reply from 108.177.122.102: bytes=32 time=12ms TTL=107
+Reply from 108.177.122.102: bytes=32 time=13ms TTL=107
+Reply from 108.177.122.102: bytes=32 time=16ms TTL=107
+Reply from 108.177.122.102: bytes=32 time=14ms TTL=107
+Reply from 108.177.122.102: bytes=32 time=13ms TTL=107
+Reply from 108.177.122.102: bytes=32 time=13ms TTL=107
+Reply from 108.177.122.102: bytes=32 time=20ms TTL=107
+Reply from 108.177.122.102: bytes=32 time=14ms TTL=107
+Reply from 108.177.122.102: bytes=32 time=16ms TTL=107
+Reply from 108.177.122.102: bytes=32 time=14ms TTL=107
+Reply from 108.177.122.102: bytes=32 time=18ms TTL=107
+Reply from 108.177.122.102: bytes=32 time=14ms TTL=107
+Reply from 108.177.122.102: bytes=32 time=13ms TTL=107
+Reply from 108.177.122.102: bytes=32 time=16ms TTL=107
+Reply from 108.177.122.102: bytes=32 time=12ms TTL=107
+
+Ping statistics for 108.177.122.102:
+    Packets: Sent = 100, Received = 100, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 11ms, Maximum = 102ms, Average = 16ms
