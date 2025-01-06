@@ -1,0 +1,24 @@
+SSID: Error 404
+Datetime: 01/06/2025 06:06:39
+Datetime_alt: 202501060606
+
+Pinging google.com [2607:f8b0:4002:c0f::8b] with 32 bytes of data:
+Reply from 2607:f8b0:4002:c0f::8b: time=20ms 
+Reply from 2607:f8b0:4002:c0f::8b: time=19ms 
+Reply from 2607:f8b0:4002:c0f::8b: time=18ms 
+Reply from 2607:f8b0:4002:c0f::8b: time=19ms 
+Reply from 2607:f8b0:4002:c0f::8b: time=18ms 
+Reply from 2607:f8b0:4002:c0f::8b: time=20ms 
+Reply from 2607:f8b0:4002:c0f::8b: time=10ms 
+Reply from 2607:f8b0:4002:c0f::8b: time=10ms 
+Reply from 2607:f8b0:4002:c0f::8b: time=11ms 
+Reply from 2607:f8b0:4002:c0f::8b: time=27ms 
+Reply from 2607:f8b0:4002:c0f::8b: time=9ms 
+Reply from 2607:f8b0:4002:c0f::8b: time=8ms 
+Reply from 2607:f8b0:4002:c0f::8b: time=11ms 
+Reply from 2607:f8b0:4002:c0f::8b: time=9ms 
+Reply from 2607:f8b0:4002:c0f::8b: time=12ms 
+Reply from 2607:f8b0:4002:c0f::8b: time=9ms 
+Reply from 2607:f8b0:4002:c0f::8b: time=8ms 
+Reply from 2607:f8b0:4002:c0f::8b: time=8ms 
+Reply from 2607:f8b0:4002:c0f::8b: time=7ms 
