@@ -84,3 +84,27 @@ Reply from 74.125.138.101: bytes=32 time=13ms TTL=107
 Reply from 74.125.138.101: bytes=32 time=11ms TTL=107
 Reply from 74.125.138.101: bytes=32 time=12ms TTL=107
 Reply from 74.125.138.101: bytes=32 time=12ms TTL=107
+Reply from 74.125.138.101: bytes=32 time=11ms TTL=107
+Reply from 74.125.138.101: bytes=32 time=10ms TTL=107
+Reply from 74.125.138.101: bytes=32 time=13ms TTL=107
+Reply from 74.125.138.101: bytes=32 time=10ms TTL=107
+Reply from 74.125.138.101: bytes=32 time=12ms TTL=107
+Reply from 74.125.138.101: bytes=32 time=13ms TTL=107
+Reply from 74.125.138.101: bytes=32 time=10ms TTL=107
+Reply from 74.125.138.101: bytes=32 time=11ms TTL=107
+Reply from 74.125.138.101: bytes=32 time=15ms TTL=107
+Reply from 74.125.138.101: bytes=32 time=10ms TTL=107
+Reply from 74.125.138.101: bytes=32 time=11ms TTL=107
+Reply from 74.125.138.101: bytes=32 time=13ms TTL=107
+Reply from 74.125.138.101: bytes=32 time=10ms TTL=107
+Reply from 74.125.138.101: bytes=32 time=9ms TTL=107
+Reply from 74.125.138.101: bytes=32 time=11ms TTL=107
+Reply from 74.125.138.101: bytes=32 time=12ms TTL=107
+Reply from 74.125.138.101: bytes=32 time=10ms TTL=107
+Reply from 74.125.138.101: bytes=32 time=11ms TTL=107
+Reply from 74.125.138.101: bytes=32 time=15ms TTL=107
+
+Ping statistics for 74.125.138.101:
+    Packets: Sent = 100, Received = 100, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 9ms, Maximum = 349ms, Average = 16ms
