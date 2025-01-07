@@ -91,3 +91,20 @@ Reply from 2607:f8b0:4002:c03::66: time=12ms
 Reply from 2607:f8b0:4002:c03::66: time=12ms 
 Reply from 2607:f8b0:4002:c03::66: time=12ms 
 Reply from 2607:f8b0:4002:c03::66: time=12ms 
+Reply from 2607:f8b0:4002:c03::66: time=13ms 
+Reply from 2607:f8b0:4002:c03::66: time=33ms 
+Reply from 2607:f8b0:4002:c03::66: time=14ms 
+Reply from 2607:f8b0:4002:c03::66: time=11ms 
+Reply from 2607:f8b0:4002:c03::66: time=15ms 
+Reply from 2607:f8b0:4002:c03::66: time=15ms 
+Reply from 2607:f8b0:4002:c03::66: time=20ms 
+Reply from 2607:f8b0:4002:c03::66: time=14ms 
+Reply from 2607:f8b0:4002:c03::66: time=14ms 
+Reply from 2607:f8b0:4002:c03::66: time=13ms 
+Reply from 2607:f8b0:4002:c03::66: time=13ms 
+Reply from 2607:f8b0:4002:c03::66: time=12ms 
+
+Ping statistics for 2607:f8b0:4002:c03::66:
+    Packets: Sent = 100, Received = 100, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 9ms, Maximum = 85ms, Average = 15ms
