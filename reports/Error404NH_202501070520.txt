@@ -20,3 +20,9 @@ Reply from 108.177.122.113: bytes=32 time=12ms TTL=110
 Reply from 108.177.122.113: bytes=32 time=12ms TTL=110
 Reply from 108.177.122.113: bytes=32 time=11ms TTL=110
 Reply from 108.177.122.113: bytes=32 time=20ms TTL=110
+Reply from 108.177.122.113: bytes=32 time=11ms TTL=110
+Reply from 108.177.122.113: bytes=32 time=11ms TTL=110
+Reply from 108.177.122.113: bytes=32 time=11ms TTL=110
+Reply from 108.177.122.113: bytes=32 time=15ms TTL=110
+Reply from 108.177.122.113: bytes=32 time=9ms TTL=110
+Reply from 108.177.122.113: bytes=32 time=10ms TTL=110
