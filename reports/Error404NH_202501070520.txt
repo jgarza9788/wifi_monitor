@@ -88,3 +88,23 @@ Reply from 108.177.122.113: bytes=32 time=9ms TTL=110
 Reply from 108.177.122.113: bytes=32 time=41ms TTL=110
 Reply from 108.177.122.113: bytes=32 time=13ms TTL=110
 Reply from 108.177.122.113: bytes=32 time=16ms TTL=110
+Reply from 108.177.122.113: bytes=32 time=13ms TTL=110
+Reply from 108.177.122.113: bytes=32 time=12ms TTL=110
+Reply from 108.177.122.113: bytes=32 time=29ms TTL=110
+Reply from 108.177.122.113: bytes=32 time=30ms TTL=110
+Reply from 108.177.122.113: bytes=32 time=13ms TTL=110
+Reply from 108.177.122.113: bytes=32 time=12ms TTL=110
+Reply from 108.177.122.113: bytes=32 time=13ms TTL=110
+Reply from 108.177.122.113: bytes=32 time=11ms TTL=110
+Reply from 108.177.122.113: bytes=32 time=10ms TTL=110
+Reply from 108.177.122.113: bytes=32 time=13ms TTL=110
+Reply from 108.177.122.113: bytes=32 time=10ms TTL=110
+Reply from 108.177.122.113: bytes=32 time=11ms TTL=110
+Reply from 108.177.122.113: bytes=32 time=13ms TTL=110
+Reply from 108.177.122.113: bytes=32 time=11ms TTL=110
+Reply from 108.177.122.113: bytes=32 time=16ms TTL=110
+
+Ping statistics for 108.177.122.113:
+    Packets: Sent = 100, Received = 100, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 9ms, Maximum = 137ms, Average = 17ms
