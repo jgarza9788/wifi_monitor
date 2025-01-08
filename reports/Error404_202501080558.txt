@@ -90,3 +90,7 @@ Reply from 2607:f8b0:4002:c10::8b: time=12ms
 Reply from 2607:f8b0:4002:c10::8b: time=8ms 
 Reply from 2607:f8b0:4002:c10::8b: time=11ms 
 Reply from 2607:f8b0:4002:c10::8b: time=9ms 
+Reply from 2607:f8b0:4002:c10::8b: time=10ms 
+Reply from 2607:f8b0:4002:c10::8b: time=12ms 
+Reply from 2607:f8b0:4002:c10::8b: time=10ms 
+Reply from 2607:f8b0:4002:c10::8b: time=14ms 
