@@ -1,0 +1,16 @@
+SSID: Error 404_EXT
+Datetime: 01/08/2025 06:02:53
+Datetime_alt: 202501080602
+
+Pinging google.com [172.253.124.139] with 32 bytes of data:
+Reply from 172.253.124.139: bytes=32 time=15ms TTL=107
+Reply from 172.253.124.139: bytes=32 time=12ms TTL=107
+Reply from 172.253.124.139: bytes=32 time=15ms TTL=107
+Reply from 172.253.124.139: bytes=32 time=11ms TTL=107
+Reply from 172.253.124.139: bytes=32 time=13ms TTL=107
+Reply from 172.253.124.139: bytes=32 time=16ms TTL=107
+Reply from 172.253.124.139: bytes=32 time=13ms TTL=107
+Reply from 172.253.124.139: bytes=32 time=16ms TTL=107
+Reply from 172.253.124.139: bytes=32 time=24ms TTL=107
+Reply from 172.253.124.139: bytes=32 time=15ms TTL=107
+Reply from 172.253.124.139: bytes=32 time=13ms TTL=107
