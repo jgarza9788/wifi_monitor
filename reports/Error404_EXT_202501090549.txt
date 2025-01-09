@@ -1,0 +1,12 @@
+SSID: Error 404_EXT
+Datetime: 01/09/2025 05:49:20
+Datetime_alt: 202501090549
+
+Pinging google.com [2607:f8b0:4002:c1b::65] with 32 bytes of data:
+Reply from 2607:f8b0:4002:c1b::65: time=22ms 
+Reply from 2607:f8b0:4002:c1b::65: time=20ms 
+Reply from 2607:f8b0:4002:c1b::65: time=25ms 
+Reply from 2607:f8b0:4002:c1b::65: time=24ms 
+Reply from 2607:f8b0:4002:c1b::65: time=22ms 
+Reply from 2607:f8b0:4002:c1b::65: time=22ms 
+Reply from 2607:f8b0:4002:c1b::65: time=13ms 
