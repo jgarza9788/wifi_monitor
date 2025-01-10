@@ -17,3 +17,9 @@ Reply from 173.194.219.101: bytes=32 time=9ms TTL=58
 Reply from 173.194.219.101: bytes=32 time=15ms TTL=58
 Reply from 173.194.219.101: bytes=32 time=10ms TTL=58
 Reply from 173.194.219.101: bytes=32 time=11ms TTL=58
+Reply from 173.194.219.101: bytes=32 time=10ms TTL=58
+Reply from 173.194.219.101: bytes=32 time=11ms TTL=58
+Reply from 173.194.219.101: bytes=32 time=11ms TTL=58
+Reply from 173.194.219.101: bytes=32 time=12ms TTL=58
+Reply from 173.194.219.101: bytes=32 time=14ms TTL=58
+Reply from 173.194.219.101: bytes=32 time=12ms TTL=58
