@@ -95,3 +95,16 @@ Reply from 142.250.9.101: bytes=32 time=12ms TTL=109
 Reply from 142.250.9.101: bytes=32 time=13ms TTL=109
 Reply from 142.250.9.101: bytes=32 time=11ms TTL=109
 Reply from 142.250.9.101: bytes=32 time=17ms TTL=109
+Reply from 142.250.9.101: bytes=32 time=14ms TTL=109
+Reply from 142.250.9.101: bytes=32 time=19ms TTL=109
+Reply from 142.250.9.101: bytes=32 time=12ms TTL=109
+Reply from 142.250.9.101: bytes=32 time=14ms TTL=109
+Reply from 142.250.9.101: bytes=32 time=12ms TTL=109
+Reply from 142.250.9.101: bytes=32 time=14ms TTL=109
+Reply from 142.250.9.101: bytes=32 time=12ms TTL=109
+Reply from 142.250.9.101: bytes=32 time=13ms TTL=109
+
+Ping statistics for 142.250.9.101:
+    Packets: Sent = 100, Received = 100, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 10ms, Maximum = 59ms, Average = 14ms
