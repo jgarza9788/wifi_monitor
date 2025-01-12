@@ -88,3 +88,11 @@ Reply from 172.253.124.138: bytes=32 time=10ms TTL=106
 Reply from 172.253.124.138: bytes=32 time=13ms TTL=106
 Reply from 172.253.124.138: bytes=32 time=20ms TTL=106
 Reply from 172.253.124.138: bytes=32 time=15ms TTL=106
+Reply from 172.253.124.138: bytes=32 time=11ms TTL=106
+Reply from 172.253.124.138: bytes=32 time=15ms TTL=106
+Reply from 172.253.124.138: bytes=32 time=11ms TTL=106
+Reply from 172.253.124.138: bytes=32 time=9ms TTL=106
+Reply from 172.253.124.138: bytes=32 time=10ms TTL=106
+Reply from 172.253.124.138: bytes=32 time=12ms TTL=106
+Reply from 172.253.124.138: bytes=32 time=10ms TTL=106
+Reply from 172.253.124.138: bytes=32 time=18ms TTL=106
