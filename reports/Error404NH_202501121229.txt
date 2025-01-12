@@ -76,3 +76,8 @@ Reply from 172.253.124.138: bytes=32 time=346ms TTL=106
 Reply from 172.253.124.138: bytes=32 time=16ms TTL=106
 Reply from 172.253.124.138: bytes=32 time=14ms TTL=106
 Reply from 172.253.124.138: bytes=32 time=10ms TTL=106
+Reply from 172.253.124.138: bytes=32 time=9ms TTL=106
+Reply from 172.253.124.138: bytes=32 time=8ms TTL=106
+Reply from 172.253.124.138: bytes=32 time=10ms TTL=106
+Reply from 172.253.124.138: bytes=32 time=12ms TTL=106
+Reply from 172.253.124.138: bytes=32 time=13ms TTL=106
