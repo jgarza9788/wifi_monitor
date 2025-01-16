@@ -1,0 +1,1 @@
+this is the backup of the settings before trying to improve for speed
