@@ -36,3 +36,15 @@ Reply from 64.233.185.100: bytes=32 time=10ms TTL=106
 Reply from 64.233.185.100: bytes=32 time=14ms TTL=57
 Reply from 64.233.185.100: bytes=32 time=12ms TTL=57
 Reply from 64.233.185.100: bytes=32 time=16ms TTL=57
+Reply from 64.233.185.100: bytes=32 time=12ms TTL=57
+Reply from 64.233.185.100: bytes=32 time=10ms TTL=57
+Reply from 64.233.185.100: bytes=32 time=283ms TTL=57
+Reply from 64.233.185.100: bytes=32 time=11ms TTL=57
+Reply from 64.233.185.100: bytes=32 time=12ms TTL=57
+Reply from 64.233.185.100: bytes=32 time=9ms TTL=57
+Reply from 64.233.185.100: bytes=32 time=10ms TTL=57
+Reply from 64.233.185.100: bytes=32 time=11ms TTL=57
+Reply from 64.233.185.100: bytes=32 time=12ms TTL=57
+Reply from 64.233.185.100: bytes=32 time=11ms TTL=57
+Reply from 64.233.185.100: bytes=32 time=14ms TTL=57
+Reply from 64.233.185.100: bytes=32 time=11ms TTL=106
