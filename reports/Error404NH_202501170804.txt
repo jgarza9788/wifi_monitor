@@ -48,3 +48,17 @@ Reply from 64.233.185.100: bytes=32 time=12ms TTL=57
 Reply from 64.233.185.100: bytes=32 time=11ms TTL=57
 Reply from 64.233.185.100: bytes=32 time=14ms TTL=57
 Reply from 64.233.185.100: bytes=32 time=11ms TTL=106
+Reply from 64.233.185.100: bytes=32 time=110ms TTL=57
+Reply from 64.233.185.100: bytes=32 time=14ms TTL=57
+Reply from 64.233.185.100: bytes=32 time=17ms TTL=57
+Reply from 64.233.185.100: bytes=32 time=12ms TTL=57
+Reply from 64.233.185.100: bytes=32 time=20ms TTL=57
+Reply from 64.233.185.100: bytes=32 time=14ms TTL=57
+Reply from 64.233.185.100: bytes=32 time=14ms TTL=57
+Reply from 64.233.185.100: bytes=32 time=13ms TTL=57
+Reply from 64.233.185.100: bytes=32 time=11ms TTL=57
+Reply from 64.233.185.100: bytes=32 time=10ms TTL=57
+Reply from 64.233.185.100: bytes=32 time=24ms TTL=57
+Reply from 64.233.185.100: bytes=32 time=14ms TTL=57
+Reply from 64.233.185.100: bytes=32 time=12ms TTL=57
+Reply from 64.233.185.100: bytes=32 time=12ms TTL=57
