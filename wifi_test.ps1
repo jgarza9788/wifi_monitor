@@ -38,7 +38,7 @@ $thisDate = Get-Date
 # Write-Host ""
 
 # generate report
-jupyter nbconvert --to notebook --execute reports.ipynb
+jupyter nbconvert --to python --execute reports.ipynb
 
 git add *
 git commit -m "wifi-test $($thisDate)"
