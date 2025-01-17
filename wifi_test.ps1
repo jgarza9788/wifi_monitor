@@ -36,3 +36,11 @@ git add *
 git commit -m "wifi-test $($thisDate)"
 git push
 Write-Host ""
+
+# generate report
+jupyter nbconvert --to notebook --execute reports.ipynb
+
+git add *
+git commit -m "wifi-test $($thisDate)"
+git push
+Write-Host ""
