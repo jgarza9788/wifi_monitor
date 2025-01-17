@@ -97,3 +97,8 @@ Reply from 64.233.185.100: bytes=32 time=11ms TTL=57
 Reply from 64.233.185.100: bytes=32 time=11ms TTL=57
 Reply from 64.233.185.100: bytes=32 time=13ms TTL=57
 Reply from 64.233.185.100: bytes=32 time=24ms TTL=57
+Reply from 64.233.185.100: bytes=32 time=9ms TTL=57
+Reply from 64.233.185.100: bytes=32 time=10ms TTL=57
+Reply from 64.233.185.100: bytes=32 time=14ms TTL=57
+Reply from 64.233.185.100: bytes=32 time=13ms TTL=57
+Reply from 64.233.185.100: bytes=32 time=14ms TTL=57
