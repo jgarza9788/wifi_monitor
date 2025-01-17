@@ -9,6 +9,8 @@ Write-Host "Default DateTime: $dateTimeDefault"
 $dateTimeCustom = Get-Date -Format "yyyyMMddHHmm"
 Write-Host "Custom DateTime: $dateTimeCustom"
 
+$signalStrength = (netsh wlan show interfaces) -Match '^\s+Signal' -Replace '^\s+Signal\s+:\s+',''    
+
 # Replace spaces in SSID to create a file-friendly name
 $nameSSID = $SSID -replace " ", ""
 
@@ -29,6 +31,7 @@ Write-Host "File Name: $File"
 "SSID: $SSID" | Out-File -Append -FilePath $File
 "Datetime: $dateTimeDefault" | Out-File -Append -FilePath $File
 "Datetime_alt: $dateTimeCustom" | Out-File -Append -FilePath $File
+"Signal_Strength: $signalStrength" | Out-File -Append -FilePath $File
 
 # Append ping results to the file
 ping google.com -n 100 | Out-File -Append -FilePath $File
