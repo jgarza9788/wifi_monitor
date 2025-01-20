@@ -66,6 +66,7 @@ def bar(num,denom=100.0,length=30,fillchar='#',emptychar='_'):
 DateFilter = None
 DateFilter = 202501100000 # new firmware r44715
 # DateFilter = 202501160000 # changed some settings in Error 404 NH
+# DateFilter = 202501190000
 
 
 # In[5]:
@@ -120,6 +121,14 @@ for i in os.listdir(RDIR):
         pings = [ int(p) for p in pings]
         # print(*pings,sep='\n')
 
+
+        signalstrength =  None
+        try:
+            signalstrength = re.findall('Signal_Strength:.*\n',text)[0]
+            signalstrength = signalstrength.replace('\n', '').replace('Signal_Strength: ','').replace('%','')
+        except:
+            pass
+
         timeouts = re.findall('Request timed out.\n',text)
 
         trycount = re.findall('(Request|Reply).*\n',text)
@@ -131,24 +140,22 @@ for i in os.listdir(RDIR):
             data[wifi]['pings'] = []
             data[wifi]['timeouts'] = []
             data[wifi]['trycount'] = []
+            data[wifi]['signalstrength'] = []
         
         data[wifi]['pings'].extend(pings)
         data[wifi]['timeouts'].extend([len(timeouts)])
         data[wifi]['trycount'].extend([len(trycount)])
 
+        if signalstrength != None:
+            data[wifi]['signalstrength'].append(int(signalstrength))
+
     except Exception as e:
         pass
         print(i,e)
 
-# for k in data.keys():
-#     print('-'*20)
-#     print(k)
-#     df_pings = pd.DataFrame(data[k]['pings'])
-#     print(df_pings[0].describe())
-#     print()
-#     print(f'Request timed out:')
-#     print(f'{ sum(data[k]['timeouts']) } out of { sum(data[k]['trycount']) }')
-#     print(f'{ sum(data[k]['timeouts']) / sum(data[k]['trycount']) }')
+
+# In[7]:
+
 
 file = os.path.join(DIR,'docs','index.html')
 with open(file,'w',encoding='utf8') as f:
@@ -165,6 +172,11 @@ with open(file,'w',encoding='utf8') as f:
         csvlines = df_pings.describe().to_csv()
         f.write(csvlines[4::].replace('\n','<br \>').replace(',','\t'))
 
+        f.write('<br \>')
+        f.write(f'Signal Strength (min) {min(data[k]["signalstrength"])}<br \>')
+        f.write(f'Signal Strength (mean) {sum(data[k]["signalstrength"])/len(data[k]["signalstrength"]):.2f}<br \>')
+        f.write(f'Signal Strength (max) {max(data[k]["signalstrength"])}<br \>')
+
         # print(df_pings)
 
         bdb = break_down_buckets(df_pings,0,[0,5,10,15,20,30,40,50,500])
@@ -178,6 +190,4 @@ with open(file,'w',encoding='utf8') as f:
         f.write(f'Request timed out (failed pings):<br \>')
         f.write(f'{ sum(data[k]['timeouts']) } out of { sum(data[k]['trycount']) }<br \>')
         f.write(f'{ sum(data[k]['timeouts']) / sum(data[k]['trycount']) }')
-
-
 
