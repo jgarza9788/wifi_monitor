@@ -1,0 +1,111 @@
+SSID: Error 404 NH
+Datetime: 01/23/2025 21:10:05
+Datetime_alt: 202501232110
+Signal_Strength: 86% 
+
+Pinging google.com [172.253.124.138] with 32 bytes of data:
+Reply from 172.253.124.138: bytes=32 time=10ms TTL=109
+Reply from 172.253.124.138: bytes=32 time=14ms TTL=109
+Reply from 172.253.124.138: bytes=32 time=13ms TTL=109
+Reply from 172.253.124.138: bytes=32 time=13ms TTL=109
+Reply from 172.253.124.138: bytes=32 time=19ms TTL=109
+Reply from 172.253.124.138: bytes=32 time=11ms TTL=109
+Reply from 172.253.124.138: bytes=32 time=17ms TTL=109
+Reply from 172.253.124.138: bytes=32 time=16ms TTL=109
+Reply from 172.253.124.138: bytes=32 time=20ms TTL=109
+Reply from 172.253.124.138: bytes=32 time=11ms TTL=109
+Reply from 172.253.124.138: bytes=32 time=17ms TTL=109
+Reply from 172.253.124.138: bytes=32 time=11ms TTL=109
+Reply from 172.253.124.138: bytes=32 time=11ms TTL=109
+Reply from 172.253.124.138: bytes=32 time=11ms TTL=109
+Reply from 172.253.124.138: bytes=32 time=9ms TTL=109
+Reply from 172.253.124.138: bytes=32 time=14ms TTL=109
+Reply from 172.253.124.138: bytes=32 time=10ms TTL=109
+Reply from 172.253.124.138: bytes=32 time=22ms TTL=109
+Reply from 172.253.124.138: bytes=32 time=15ms TTL=109
+Reply from 172.253.124.138: bytes=32 time=13ms TTL=109
+PING: transmit failed. General failure. 
+PING: transmit failed. General failure. 
+PING: transmit failed. General failure. 
+PING: transmit failed. General failure. 
+Reply from 172.253.124.138: bytes=32 time=12ms TTL=109
+Reply from 172.253.124.138: bytes=32 time=16ms TTL=109
+Reply from 172.253.124.138: bytes=32 time=10ms TTL=109
+Reply from 172.253.124.138: bytes=32 time=16ms TTL=109
+Reply from 172.253.124.138: bytes=32 time=9ms TTL=109
+Reply from 172.253.124.138: bytes=32 time=21ms TTL=109
+Reply from 172.253.124.138: bytes=32 time=25ms TTL=109
+Reply from 172.253.124.138: bytes=32 time=25ms TTL=109
+Reply from 172.253.124.138: bytes=32 time=13ms TTL=109
+Reply from 172.253.124.138: bytes=32 time=12ms TTL=109
+Reply from 172.253.124.138: bytes=32 time=34ms TTL=109
+Reply from 172.253.124.138: bytes=32 time=11ms TTL=109
+Reply from 172.253.124.138: bytes=32 time=15ms TTL=109
+Reply from 172.253.124.138: bytes=32 time=12ms TTL=109
+Reply from 172.253.124.138: bytes=32 time=12ms TTL=109
+Reply from 172.253.124.138: bytes=32 time=16ms TTL=109
+Reply from 172.253.124.138: bytes=32 time=11ms TTL=109
+Reply from 172.253.124.138: bytes=32 time=9ms TTL=109
+Reply from 172.253.124.138: bytes=32 time=11ms TTL=109
+Reply from 172.253.124.138: bytes=32 time=9ms TTL=109
+Reply from 172.253.124.138: bytes=32 time=11ms TTL=109
+Reply from 172.253.124.138: bytes=32 time=14ms TTL=109
+Reply from 172.253.124.138: bytes=32 time=22ms TTL=109
+Reply from 172.253.124.138: bytes=32 time=18ms TTL=109
+Reply from 172.253.124.138: bytes=32 time=16ms TTL=109
+Reply from 172.253.124.138: bytes=32 time=14ms TTL=109
+Reply from 172.253.124.138: bytes=32 time=16ms TTL=109
+Reply from 172.253.124.138: bytes=32 time=11ms TTL=109
+Reply from 172.253.124.138: bytes=32 time=16ms TTL=109
+Reply from 172.253.124.138: bytes=32 time=27ms TTL=109
+Reply from 172.253.124.138: bytes=32 time=16ms TTL=109
+Reply from 172.253.124.138: bytes=32 time=9ms TTL=109
+Reply from 172.253.124.138: bytes=32 time=32ms TTL=109
+Reply from 172.253.124.138: bytes=32 time=18ms TTL=109
+Reply from 172.253.124.138: bytes=32 time=17ms TTL=109
+Reply from 172.253.124.138: bytes=32 time=16ms TTL=109
+Reply from 172.253.124.138: bytes=32 time=12ms TTL=109
+Reply from 172.253.124.138: bytes=32 time=10ms TTL=109
+Reply from 172.253.124.138: bytes=32 time=15ms TTL=109
+Reply from 172.253.124.138: bytes=32 time=13ms TTL=109
+Reply from 172.253.124.138: bytes=32 time=15ms TTL=109
+Reply from 172.253.124.138: bytes=32 time=15ms TTL=109
+Reply from 172.253.124.138: bytes=32 time=14ms TTL=109
+Reply from 172.253.124.138: bytes=32 time=15ms TTL=109
+Reply from 172.253.124.138: bytes=32 time=17ms TTL=109
+Reply from 172.253.124.138: bytes=32 time=9ms TTL=109
+Reply from 172.253.124.138: bytes=32 time=13ms TTL=109
+Reply from 172.253.124.138: bytes=32 time=10ms TTL=109
+Reply from 172.253.124.138: bytes=32 time=12ms TTL=109
+Reply from 172.253.124.138: bytes=32 time=22ms TTL=109
+Reply from 172.253.124.138: bytes=32 time=16ms TTL=109
+Reply from 172.253.124.138: bytes=32 time=13ms TTL=109
+Reply from 172.253.124.138: bytes=32 time=14ms TTL=109
+Reply from 172.253.124.138: bytes=32 time=39ms TTL=109
+Reply from 172.253.124.138: bytes=32 time=21ms TTL=109
+Reply from 172.253.124.138: bytes=32 time=35ms TTL=109
+Reply from 172.253.124.138: bytes=32 time=19ms TTL=109
+Reply from 172.253.124.138: bytes=32 time=18ms TTL=109
+Reply from 172.253.124.138: bytes=32 time=18ms TTL=109
+Reply from 172.253.124.138: bytes=32 time=14ms TTL=109
+Reply from 172.253.124.138: bytes=32 time=11ms TTL=109
+Reply from 172.253.124.138: bytes=32 time=18ms TTL=109
+Reply from 172.253.124.138: bytes=32 time=9ms TTL=109
+General failure.
+General failure.
+General failure.
+Reply from 172.253.124.138: bytes=32 time=15ms TTL=109
+Reply from 172.253.124.138: bytes=32 time=10ms TTL=109
+Reply from 172.253.124.138: bytes=32 time=13ms TTL=109
+Reply from 172.253.124.138: bytes=32 time=14ms TTL=109
+Reply from 172.253.124.138: bytes=32 time=49ms TTL=109
+Reply from 172.253.124.138: bytes=32 time=13ms TTL=109
+Reply from 172.253.124.138: bytes=32 time=20ms TTL=109
+Reply from 172.253.124.138: bytes=32 time=10ms TTL=109
+Reply from 172.253.124.138: bytes=32 time=10ms TTL=109
+Reply from 172.253.124.138: bytes=32 time=10ms TTL=109
+
+Ping statistics for 172.253.124.138:
+    Packets: Sent = 100, Received = 93, Lost = 7 (7% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 9ms, Maximum = 49ms, Average = 15ms
