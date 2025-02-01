@@ -30,6 +30,12 @@ print(f'{RDIR=}')
 # In[2]:
 
 
+template_path = os.path.join(DIR,'template.html')
+
+
+# In[3]:
+
+
 def break_down_buckets(idf,column,buckets,message='',nan_value=-1):
     """
     breaks a column down into buckets/bins
@@ -51,15 +57,15 @@ def break_down_buckets(idf,column,buckets,message='',nan_value=-1):
 # break_down_buckets(df,'AGE_YRS',[-1,0,15,25,35,45,55,65,75,85,500])
 
 
-# In[3]:
-
-
-def bar(num,denom=100.0,length=30,fillchar='#',emptychar='_'):
-    fillnum = ((int)( (num/denom) * length))
-    return '[' + ( fillnum * fillchar ).ljust(length,emptychar)  + ']' # + f" {(num/denom)*100.0:.2f}%     " 
-
-
 # In[4]:
+
+
+def bar(num,denom=100.0,length=30,fillchar='█',emptychar='░'):
+    fillnum = ((int)( (num/denom) * length))
+    return '' + ( fillnum * fillchar ).ljust(length,emptychar)  + '' # + f" {(num/denom)*100.0:.2f}%     " 
+
+
+# In[5]:
 
 
 # YYYYMMDDHHmm
@@ -69,7 +75,7 @@ DateFilter = 202501100000 # new firmware r44715
 # DateFilter = 202501200000
 
 
-# In[5]:
+# In[6]:
 
 
 def getfirmware(ssid,dt):
@@ -85,7 +91,7 @@ def getfirmware(ssid,dt):
         return ""
 
 
-# In[6]:
+# In[7]:
 
 
 data = {}
@@ -154,40 +160,109 @@ for i in os.listdir(RDIR):
         print(i,e)
 
 
-# In[7]:
+# In[8]:
 
+
+# file = os.path.join(DIR,'docs','index.html')
+# with open(file,'w',encoding='utf8') as f:
+
+#     f.write(f'<h>{current_datetime}</h>')
+
+#     for k in data.keys():
+        
+#         f.write('<p>' + '-'*20 + '</p>')
+
+#         f.write(f'<p>{k}</p>')
+#         df_pings = pd.DataFrame(data[k]['pings'])
+
+#         csvlines = df_pings.describe().to_csv()
+#         f.write(csvlines[4::].replace('\n','<br \>').replace(',','\t'))
+
+#         f.write('<br \>')
+#         f.write(f'Signal Strength (min) {min(data[k]["signalstrength"])}<br \>')
+#         f.write(f'Signal Strength (mean) {sum(data[k]["signalstrength"])/len(data[k]["signalstrength"]):.2f}<br \>')
+#         f.write(f'Signal Strength (max) {max(data[k]["signalstrength"])}<br \>')
+
+#         # print(df_pings)
+
+#         bdb = break_down_buckets(df_pings,0,[0,5,10,15,20,30,40,50,500])
+#         bdb['bar'] = bdb.percent.apply(bar)
+#         bdb = bdb.reset_index()
+        
+
+#         # display(bdb)
+
+#         f.write('<br \>')
+#         f.write(bdb.to_html(index=False))
+#         f.write('<br \>')
+
+#         f.write(f'Request timed out (failed pings):<br \>')
+#         f.write(f'{ sum(data[k]['timeouts']) } out of { sum(data[k]['trycount']) }<br \>')
+#         f.write(f'{ sum(data[k]['timeouts']) / sum(data[k]['trycount']) }')
+
+
+# In[9]:
+
+
+segment = """
+<h2 class="">{%segment_header%}</h2>
+<h3 class="">Signal Strength</h2>
+
+    <div class="progress bg-dark " style="height: 25px;">
+        <div class="progress-bar bg-dark " role="progressbar" style="width: {%zeromin%}%" aria-valuemin="0" aria-valuemax="100"></div>
+        <div class="progress-bar bg-signalstrength-1 " role="progressbar" style="width: {%minmean%}%" aria-valuemin="0" aria-valuemax="100">{%ssmin%}%</div>
+        <div class="progress-bar bg-signalstrength-2" role="progressbar" style="width: {%meanmean%}%" aria-valuemin="0" aria-valuemax="100">{%ssmean%}%</div>
+        <div class="progress-bar bg-signalstrength-1 " role="progressbar" style="width: {%meanmax%}%" aria-valuemin="0" aria-valuemax="100">{%ssmax%}%</div>
+    </div>
+
+<h3 class="">Ping Table</h2>
+{%ping_table%}
+
+<div class="divider"></div>
+"""
+
+
+# In[10]:
+
+
+template = ''
+with open(template_path, 'r', encoding='utf8') as f:
+    template = f.read()
+
+template = template.replace('{%report_header%}',str(current_datetime))
+
+segments = ''
+for k in data.keys():
+    ns = segment
+
+    ns = ns.replace('{%segment_header%}',k)
+
+    ssmin = min(data[k]["signalstrength"])
+    ssmean = sum(data[k]["signalstrength"])/len(data[k]["signalstrength"])
+    ssmax = max(data[k]["signalstrength"])
+
+    ns = ns.replace('{%zeromin%}',f'{ssmin:.2f}')
+    ns = ns.replace('{%minmean%}',f'{ssmean-ssmin-2.5:.2f}')
+    ns = ns.replace('{%meanmean%}',f'{5:.2f}')
+    ns = ns.replace('{%meanmax%}',f'{ssmax-ssmean+2.5:.2f}')
+
+    ns = ns.replace('{%ssmin%}',f'{ssmin:.2f}')
+    ns = ns.replace('{%ssmean%}',f'{ssmean:.2f}')
+    ns = ns.replace('{%ssmax%}',f'{ssmax:.2f}')
+
+    df_pings = pd.DataFrame(data[k]['pings'])
+    bdb = break_down_buckets(df_pings,0,[0,5,10,15,20,30,40,50,500])
+    bdb['bar'] = bdb.percent.apply(bar)
+    bdb = bdb.reset_index()
+
+    ns = ns.replace('{%ping_table%}',bdb.to_html(index=False,justify='left'))
+    ns = ns.replace('\"dataframe\"','\"table table-dark table-striped\"')
+
+    segments += ns
+
+template = template.replace('{%segments%}',segments)
 
 file = os.path.join(DIR,'docs','index.html')
 with open(file,'w',encoding='utf8') as f:
-
-    f.write(f'<h>{current_datetime}</h>')
-
-    for k in data.keys():
-        
-        f.write('<p>' + '-'*20 + '</p>')
-
-        f.write(f'<p>{k}</p>')
-        df_pings = pd.DataFrame(data[k]['pings'])
-
-        csvlines = df_pings.describe().to_csv()
-        f.write(csvlines[4::].replace('\n','<br \>').replace(',','\t'))
-
-        f.write('<br \>')
-        f.write(f'Signal Strength (min) {min(data[k]["signalstrength"])}<br \>')
-        f.write(f'Signal Strength (mean) {sum(data[k]["signalstrength"])/len(data[k]["signalstrength"]):.2f}<br \>')
-        f.write(f'Signal Strength (max) {max(data[k]["signalstrength"])}<br \>')
-
-        # print(df_pings)
-
-        bdb = break_down_buckets(df_pings,0,[0,5,10,15,20,30,40,50,500])
-        bdb['bar'] = bdb.percent.apply(bar)
-        # display(bdb)
-
-        f.write('<br \>')
-        f.write(bdb.to_html())
-        f.write('<br \>')
-
-        f.write(f'Request timed out (failed pings):<br \>')
-        f.write(f'{ sum(data[k]['timeouts']) } out of { sum(data[k]['trycount']) }<br \>')
-        f.write(f'{ sum(data[k]['timeouts']) / sum(data[k]['trycount']) }')
+    f.write(template)
 
