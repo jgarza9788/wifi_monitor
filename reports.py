@@ -247,9 +247,9 @@ for k in data.keys():
     ns = ns.replace('{%meanmean%}',f'{10:.2f}')
     ns = ns.replace('{%meanmax%}',f'{ssmax-ssmean+5:.2f}')
 
-    ns = ns.replace('{%ssmin%}',f'{ssmin:.2f}')
-    ns = ns.replace('{%ssmean%}',f'{ssmean:.2f}')
-    ns = ns.replace('{%ssmax%}',f'{ssmax:.2f}')
+    ns = ns.replace('{%ssmin%}',f'{ssmin:.0f}')
+    ns = ns.replace('{%ssmean%}',f'{ssmean:.0f}')
+    ns = ns.replace('{%ssmax%}',f'{ssmax:.0f}')
 
     df_pings = pd.DataFrame(data[k]['pings'])
     bdb = break_down_buckets(df_pings,0,[0,5,10,15,20,30,40,50,500])
@@ -258,6 +258,9 @@ for k in data.keys():
 
     # ns = ns.replace('{%ping_table%}',bdb.to_html(index=False,justify='left'))
     # ns = ns.replace('\"dataframe\"','\"table table-dark table-striped\"')
+
+    failed_pings = sum(data[k]['timeouts'])
+    failed_percent = f"{failed_pings/sum(data[k]['trycount']):.0f}"
 
     tbl = ''
     tbl += '<table class="table table-dark table-stripedx">\n'
@@ -287,8 +290,17 @@ for k in data.keys():
             </td>
             </tr>
         """
-        # print(row.describe())
-        # print(row['bar'])
+    tbl += f"""
+        <tr>
+        <td class="col-2 text-danger">Failed</td>
+        <td class="col-10">
+            <div class="progress bar-boarder-danger bg-dark">
+            <div class="progress-bar overflow-visible bg-danger text-secondary fw-semibold" style="width: {failed_percent}%; height:25px">
+                {failed_pings} | {failed_percent}%</div>
+            </div>
+        </td>
+        </tr>
+    """
     tbl += """
     </table>
     </tbody>
