@@ -208,13 +208,14 @@ segment = """
 <h2 class="">{%segment_header%}</h2>
 <h3 class="">Signal Strength</h2>
 
-    <div class="progress bg-dark " style="height: 25px;">
+    <div class="progress bg-dark bar-boarder" style="height: 25px;">
         <div class="progress-bar bg-dark " role="progressbar" style="width: {%zeromin%}%" aria-valuemin="0" aria-valuemax="100"></div>
-        <div class="progress-bar bg-signalstrength-1 " role="progressbar" style="width: {%minmean%}%" aria-valuemin="0" aria-valuemax="100">{%ssmin%}%</div>
-        <div class="progress-bar bg-signalstrength-2" role="progressbar" style="width: {%meanmean%}%" aria-valuemin="0" aria-valuemax="100">{%ssmean%}%</div>
-        <div class="progress-bar bg-signalstrength-1 " role="progressbar" style="width: {%meanmax%}%" aria-valuemin="0" aria-valuemax="100">{%ssmax%}%</div>
+        <div class="progress-bar bg-signalstrength-1 fw-semibold" role="progressbar" style="width: {%minmean%}%" aria-valuemin="0" aria-valuemax="100">{%ssmin%}%</div>
+        <div class="progress-bar bg-signalstrength-2 fw-semibold" role="progressbar" style="width: {%meanmean%}%" aria-valuemin="0" aria-valuemax="100">{%ssmean%}%</div>
+        <div class="progress-bar bg-signalstrength-1 fw-semibold" role="progressbar" style="width: {%meanmax%}%" aria-valuemin="0" aria-valuemax="100">{%ssmax%}%</div>
     </div>
 
+<br />
 <h3 class="">Ping Table</h2>
 {%ping_table%}
 
@@ -242,9 +243,9 @@ for k in data.keys():
     ssmax = max(data[k]["signalstrength"])
 
     ns = ns.replace('{%zeromin%}',f'{ssmin:.2f}')
-    ns = ns.replace('{%minmean%}',f'{ssmean-ssmin-2.5:.2f}')
-    ns = ns.replace('{%meanmean%}',f'{5:.2f}')
-    ns = ns.replace('{%meanmax%}',f'{ssmax-ssmean+2.5:.2f}')
+    ns = ns.replace('{%minmean%}',f'{ssmean-ssmin-5:.2f}')
+    ns = ns.replace('{%meanmean%}',f'{10:.2f}')
+    ns = ns.replace('{%meanmax%}',f'{ssmax-ssmean+5:.2f}')
 
     ns = ns.replace('{%ssmin%}',f'{ssmin:.2f}')
     ns = ns.replace('{%ssmean%}',f'{ssmean:.2f}')
@@ -255,8 +256,45 @@ for k in data.keys():
     bdb['bar'] = bdb.percent.apply(bar)
     bdb = bdb.reset_index()
 
-    ns = ns.replace('{%ping_table%}',bdb.to_html(index=False,justify='left'))
-    ns = ns.replace('\"dataframe\"','\"table table-dark table-striped\"')
+    # ns = ns.replace('{%ping_table%}',bdb.to_html(index=False,justify='left'))
+    # ns = ns.replace('\"dataframe\"','\"table table-dark table-striped\"')
+
+    tbl = ''
+    tbl += '<table class="table table-dark table-stripedx">\n'
+    tbl += """
+    <thead>
+        <tr style="text-align: left;">
+        <th>bucket</th>
+        <th></th>
+        </tr>
+    </thead>
+    <tbody>
+    """
+    for i,row in bdb.iterrows():
+        print(i)
+        # bucket = row['bucket']
+        bucket = re.sub(r'[\(\]]', '', str(row['bucket']))
+        bucket = re.sub(r',', '-', bucket)
+        bucket = re.sub(r' ', '', bucket)
+        tbl += f"""
+            <tr>
+            <td class="col-2">{bucket}</td>
+            <td class="col-10">
+                <div class="progress bar-boarder bg-dark">
+                <div class="progress-bar overflow-visible bg-ping text-start fw-semibold" style="width: {row['percent']}%; height:25px">
+                    {row[0]} | {row['percent']}%</div>
+                </div>
+            </td>
+            </tr>
+        """
+        # print(row.describe())
+        # print(row['bar'])
+    tbl += """
+    </table>
+    </tbody>
+    """
+
+    ns = ns.replace('{%ping_table%}',tbl)
 
     segments += ns
 
