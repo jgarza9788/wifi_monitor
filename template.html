@@ -38,7 +38,7 @@
         }
 
         .bg-signalstrength-1{
-            background-color: aquamarine !important;
+            background-color: rgba(0, 255, 255, 0.75) !important;
             color: black !important;
         }
         .bg-signalstrength-2{
@@ -46,24 +46,52 @@
             color: black !important;
         }
 
-        .bg-ping
+        .bar-ping
         {
-            background-color: aqua !important;
+            background-color: cyan !important;
             color: rgb(0, 0, 0) !important;
         }
 
         .bar-boarder{
-            border: 1px solid aqua;
+            border: 1px solid cyan;
         }
 
         .bar-boarder-danger{
             border: 1px solid rgb(220 53 69);
         }
+
+        .badge {
+            display: inline-block; /* Ensures the badge wraps around its content */
+            padding: 5px 10px;
+            font-size: 1rem;
+            font-weight: 500;
+            color: rgb(0, 0, 0);
+            background-color: rgba(0, 255, 255, 0.5); /* Bootstrap primary color */
+            border-radius: 12px; /* Rounded corners */
+            white-space: nowrap; /* Prevents wrapping */
+
+            min-width: 6rem;
+            max-width: 14rem;
+        }
+        .badge-failed {
+            display: inline-block; /* Ensures the badge wraps around its content */
+            padding: 5px 10px;
+            font-size: 1rem;
+            font-weight: 500;
+            color: rgb(0, 0, 0);
+            background-color: rgb(220, 53, 69, 0.5);; /* Bootstrap primary color */
+            border-radius: 12px; /* Rounded corners */
+            white-space: nowrap; /* Prevents wrapping */
+
+            min-width: 6rem;
+            max-width: 14rem;
+        }
+
     </style>
 </head>
 <body>
     <div class="container">
-        <h1>{%report_header%}</h1>
+        <h1>Report: {%report_header%}</h1>
         <div class="divider"></div>
 
 

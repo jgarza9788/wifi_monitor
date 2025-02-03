@@ -38,7 +38,7 @@
         }
 
         .bg-signalstrength-1{
-            background-color: aquamarine !important;
+            background-color: rgba(0, 255, 255, 0.75) !important;
             color: black !important;
         }
         .bg-signalstrength-2{
@@ -46,36 +46,64 @@
             color: black !important;
         }
 
-        .bg-ping
+        .bar-ping
         {
-            background-color: aqua !important;
+            background-color: cyan !important;
             color: rgb(0, 0, 0) !important;
         }
 
         .bar-boarder{
-            border: 1px solid aqua;
+            border: 1px solid cyan;
         }
 
         .bar-boarder-danger{
             border: 1px solid rgb(220 53 69);
         }
+
+        .badge {
+            display: inline-block; /* Ensures the badge wraps around its content */
+            padding: 5px 10px;
+            font-size: 1rem;
+            font-weight: 500;
+            color: rgb(0, 0, 0);
+            background-color: rgba(0, 255, 255, 0.5); /* Bootstrap primary color */
+            border-radius: 12px; /* Rounded corners */
+            white-space: nowrap; /* Prevents wrapping */
+
+            min-width: 6rem;
+            max-width: 14rem;
+        }
+        .badge-failed {
+            display: inline-block; /* Ensures the badge wraps around its content */
+            padding: 5px 10px;
+            font-size: 1rem;
+            font-weight: 500;
+            color: rgb(0, 0, 0);
+            background-color: rgb(220, 53, 69, 0.5);; /* Bootstrap primary color */
+            border-radius: 5rem; /* Rounded corners */
+            white-space: nowrap; /* Prevents wrapping */
+
+            min-width: 6rem;
+            max-width: 14rem;
+        }
+
     </style>
 </head>
 <body>
     <div class="container">
-        <h1>20250202.1246</h1>
+        <h1>Report: 20250202.2135</h1>
         <div class="divider"></div>
 
 
         
-<h2 class="">Error 404 NH</h2>
+<h2 class=""><i class="nf nf-md-wifi"></i>Wifi: Error 404 NH</h2>
 <h3 class="">Signal Strength</h2>
 
     <div class="progress bg-dark bar-boarder" style="height: 25px;">
         <div class="progress-bar bg-dark " role="progressbar" style="width: 83.00%" aria-valuemin="0" aria-valuemax="100"></div>
-        <div class="progress-bar bg-signalstrength-1 fw-semibold" role="progressbar" style="width: -2.78%" aria-valuemin="0" aria-valuemax="100">83%</div>
-        <div class="progress-bar bg-signalstrength-2 fw-semibold" role="progressbar" style="width: 10.00%" aria-valuemin="0" aria-valuemax="100">85%</div>
-        <div class="progress-bar bg-signalstrength-1 fw-semibold" role="progressbar" style="width: 10.78%" aria-valuemin="0" aria-valuemax="100">91%</div>
+        <div class="progress-bar rounded-start-2 bg-signalstrength-1 fw-semibold" role="progressbar" style="width: 0.22%" aria-valuemin="0" aria-valuemax="100">83%</div>
+        <div class="progress-bar  bg-signalstrength-2 fw-semibold" role="progressbar" style="width: 4.00%" aria-valuemin="0" aria-valuemax="100">85%</div>
+        <div class="progress-bar rounded-end-2 bg-signalstrength-1 fw-semibold" role="progressbar" style="width: 3.78%" aria-valuemin="0" aria-valuemax="100">91%</div>
     </div>
 
 <br />
@@ -91,91 +119,118 @@
     <tbody>
     
             <tr>
-            <td class="col-2">0-5</td>
-            <td class="col-10">
+            <td class="col-1">0-5</td>
+            <td class="col-12">
                 <div class="progress bar-boarder bg-dark">
-                <div class="progress-bar overflow-visible bg-ping text-start fw-semibold" style="width: 0.0%; height:25px">
-                    0 | 0.0%</div>
+                <div class="progress-bar overflow-visible bar-ping rounded" style="width: 0.0%; height:25px">
+                    <span class="badge text-start">
+                    0 | 0.0%
+                    </span>
+                </div>
                 </div>
             </td>
             </tr>
         
             <tr>
-            <td class="col-2">5-10</td>
-            <td class="col-10">
+            <td class="col-1">5-10</td>
+            <td class="col-12">
                 <div class="progress bar-boarder bg-dark">
-                <div class="progress-bar overflow-visible bg-ping text-start fw-semibold" style="width: 18.29%; height:25px">
-                    834 | 18.29%</div>
+                <div class="progress-bar overflow-visible bar-ping rounded" style="width: 18.29%; height:25px">
+                    <span class="badge text-start">
+                    834 | 18.29%
+                    </span>
+                </div>
                 </div>
             </td>
             </tr>
         
             <tr>
-            <td class="col-2">10-15</td>
-            <td class="col-10">
+            <td class="col-1">10-15</td>
+            <td class="col-12">
                 <div class="progress bar-boarder bg-dark">
-                <div class="progress-bar overflow-visible bg-ping text-start fw-semibold" style="width: 61.81%; height:25px">
-                    2818 | 61.81%</div>
+                <div class="progress-bar overflow-visible bar-ping rounded" style="width: 61.81%; height:25px">
+                    <span class="badge text-start">
+                    2818 | 61.81%
+                    </span>
+                </div>
                 </div>
             </td>
             </tr>
         
             <tr>
-            <td class="col-2">15-20</td>
-            <td class="col-10">
+            <td class="col-1">15-20</td>
+            <td class="col-12">
                 <div class="progress bar-boarder bg-dark">
-                <div class="progress-bar overflow-visible bg-ping text-start fw-semibold" style="width: 8.16%; height:25px">
-                    372 | 8.16%</div>
+                <div class="progress-bar overflow-visible bar-ping rounded" style="width: 8.16%; height:25px">
+                    <span class="badge text-start">
+                    372 | 8.16%
+                    </span>
+                </div>
                 </div>
             </td>
             </tr>
         
             <tr>
-            <td class="col-2">20-30</td>
-            <td class="col-10">
+            <td class="col-1">20-30</td>
+            <td class="col-12">
                 <div class="progress bar-boarder bg-dark">
-                <div class="progress-bar overflow-visible bg-ping text-start fw-semibold" style="width: 4.08%; height:25px">
-                    186 | 4.08%</div>
+                <div class="progress-bar overflow-visible bar-ping rounded" style="width: 4.08%; height:25px">
+                    <span class="badge text-start">
+                    186 | 4.08%
+                    </span>
+                </div>
                 </div>
             </td>
             </tr>
         
             <tr>
-            <td class="col-2">30-40</td>
-            <td class="col-10">
+            <td class="col-1">30-40</td>
+            <td class="col-12">
                 <div class="progress bar-boarder bg-dark">
-                <div class="progress-bar overflow-visible bg-ping text-start fw-semibold" style="width: 1.95%; height:25px">
-                    89 | 1.95%</div>
+                <div class="progress-bar overflow-visible bar-ping rounded" style="width: 1.95%; height:25px">
+                    <span class="badge text-start">
+                    89 | 1.95%
+                    </span>
+                </div>
                 </div>
             </td>
             </tr>
         
             <tr>
-            <td class="col-2">40-50</td>
-            <td class="col-10">
+            <td class="col-1">40-50</td>
+            <td class="col-12">
                 <div class="progress bar-boarder bg-dark">
-                <div class="progress-bar overflow-visible bg-ping text-start fw-semibold" style="width: 1.05%; height:25px">
-                    48 | 1.05%</div>
+                <div class="progress-bar overflow-visible bar-ping rounded" style="width: 1.05%; height:25px">
+                    <span class="badge text-start">
+                    48 | 1.05%
+                    </span>
+                </div>
                 </div>
             </td>
             </tr>
         
             <tr>
-            <td class="col-2">50-500</td>
-            <td class="col-10">
+            <td class="col-1">50-500</td>
+            <td class="col-12">
                 <div class="progress bar-boarder bg-dark">
-                <div class="progress-bar overflow-visible bg-ping text-start fw-semibold" style="width: 4.65%; height:25px">
-                    212 | 4.65%</div>
+                <div class="progress-bar overflow-visible bar-ping rounded" style="width: 4.65%; height:25px">
+                    <span class="badge text-start">
+                    212 | 4.65%
+                    </span>
+                </div>
                 </div>
             </td>
             </tr>
         
         <tr>
-        <td class="col-2 text-danger">Failed</td>
-        <td class="col-10">
+        <td class="col-1 text-danger">Failed</td>
+        <td class="col-12">
             <div class="progress bar-boarder-danger bg-dark">
-            <div class="progress-bar overflow-visible bg-danger text-secondary fw-semibold" style="width: 0%; height:25px">
-                11 | 0%</div>
+            <div class="progress-bar overflow-visible bg-danger  rounded" style="width: 0%; height:25px">
+                <span class="badge-failed text-start">
+                11 | 0%
+                </span>
+            </div>
             </div>
         </td>
         </tr>
@@ -186,14 +241,14 @@
 
 <div class="divider"></div>
 
-<h2 class="">Error 404</h2>
+<h2 class=""><i class="nf nf-md-wifi"></i>Wifi: Error 404</h2>
 <h3 class="">Signal Strength</h2>
 
     <div class="progress bg-dark bar-boarder" style="height: 25px;">
         <div class="progress-bar bg-dark " role="progressbar" style="width: 55.00%" aria-valuemin="0" aria-valuemax="100"></div>
-        <div class="progress-bar bg-signalstrength-1 fw-semibold" role="progressbar" style="width: 12.33%" aria-valuemin="0" aria-valuemax="100">55%</div>
-        <div class="progress-bar bg-signalstrength-2 fw-semibold" role="progressbar" style="width: 10.00%" aria-valuemin="0" aria-valuemax="100">72%</div>
-        <div class="progress-bar bg-signalstrength-1 fw-semibold" role="progressbar" style="width: 14.67%" aria-valuemin="0" aria-valuemax="100">82%</div>
+        <div class="progress-bar rounded-start-2 bg-signalstrength-1 fw-semibold" role="progressbar" style="width: 15.33%" aria-valuemin="0" aria-valuemax="100">55%</div>
+        <div class="progress-bar  bg-signalstrength-2 fw-semibold" role="progressbar" style="width: 4.00%" aria-valuemin="0" aria-valuemax="100">72%</div>
+        <div class="progress-bar rounded-end-2 bg-signalstrength-1 fw-semibold" role="progressbar" style="width: 7.67%" aria-valuemin="0" aria-valuemax="100">82%</div>
     </div>
 
 <br />
@@ -209,91 +264,118 @@
     <tbody>
     
             <tr>
-            <td class="col-2">0-5</td>
-            <td class="col-10">
+            <td class="col-1">0-5</td>
+            <td class="col-12">
                 <div class="progress bar-boarder bg-dark">
-                <div class="progress-bar overflow-visible bg-ping text-start fw-semibold" style="width: 0.0%; height:25px">
-                    0 | 0.0%</div>
+                <div class="progress-bar overflow-visible bar-ping rounded" style="width: 0.0%; height:25px">
+                    <span class="badge text-start">
+                    0 | 0.0%
+                    </span>
+                </div>
                 </div>
             </td>
             </tr>
         
             <tr>
-            <td class="col-2">5-10</td>
-            <td class="col-10">
+            <td class="col-1">5-10</td>
+            <td class="col-12">
                 <div class="progress bar-boarder bg-dark">
-                <div class="progress-bar overflow-visible bg-ping text-start fw-semibold" style="width: 46.2%; height:25px">
-                    2581 | 46.2%</div>
+                <div class="progress-bar overflow-visible bar-ping rounded" style="width: 46.2%; height:25px">
+                    <span class="badge text-start">
+                    2581 | 46.2%
+                    </span>
+                </div>
                 </div>
             </td>
             </tr>
         
             <tr>
-            <td class="col-2">10-15</td>
-            <td class="col-10">
+            <td class="col-1">10-15</td>
+            <td class="col-12">
                 <div class="progress bar-boarder bg-dark">
-                <div class="progress-bar overflow-visible bg-ping text-start fw-semibold" style="width: 43.96%; height:25px">
-                    2456 | 43.96%</div>
+                <div class="progress-bar overflow-visible bar-ping rounded" style="width: 43.96%; height:25px">
+                    <span class="badge text-start">
+                    2456 | 43.96%
+                    </span>
+                </div>
                 </div>
             </td>
             </tr>
         
             <tr>
-            <td class="col-2">15-20</td>
-            <td class="col-10">
+            <td class="col-1">15-20</td>
+            <td class="col-12">
                 <div class="progress bar-boarder bg-dark">
-                <div class="progress-bar overflow-visible bg-ping text-start fw-semibold" style="width: 4.3%; height:25px">
-                    240 | 4.3%</div>
+                <div class="progress-bar overflow-visible bar-ping rounded" style="width: 4.3%; height:25px">
+                    <span class="badge text-start">
+                    240 | 4.3%
+                    </span>
+                </div>
                 </div>
             </td>
             </tr>
         
             <tr>
-            <td class="col-2">20-30</td>
-            <td class="col-10">
+            <td class="col-1">20-30</td>
+            <td class="col-12">
                 <div class="progress bar-boarder bg-dark">
-                <div class="progress-bar overflow-visible bg-ping text-start fw-semibold" style="width: 4.17%; height:25px">
-                    233 | 4.17%</div>
+                <div class="progress-bar overflow-visible bar-ping rounded" style="width: 4.17%; height:25px">
+                    <span class="badge text-start">
+                    233 | 4.17%
+                    </span>
+                </div>
                 </div>
             </td>
             </tr>
         
             <tr>
-            <td class="col-2">30-40</td>
-            <td class="col-10">
+            <td class="col-1">30-40</td>
+            <td class="col-12">
                 <div class="progress bar-boarder bg-dark">
-                <div class="progress-bar overflow-visible bg-ping text-start fw-semibold" style="width: 0.52%; height:25px">
-                    29 | 0.52%</div>
+                <div class="progress-bar overflow-visible bar-ping rounded" style="width: 0.52%; height:25px">
+                    <span class="badge text-start">
+                    29 | 0.52%
+                    </span>
+                </div>
                 </div>
             </td>
             </tr>
         
             <tr>
-            <td class="col-2">40-50</td>
-            <td class="col-10">
+            <td class="col-1">40-50</td>
+            <td class="col-12">
                 <div class="progress bar-boarder bg-dark">
-                <div class="progress-bar overflow-visible bg-ping text-start fw-semibold" style="width: 0.3%; height:25px">
-                    17 | 0.3%</div>
+                <div class="progress-bar overflow-visible bar-ping rounded" style="width: 0.3%; height:25px">
+                    <span class="badge text-start">
+                    17 | 0.3%
+                    </span>
+                </div>
                 </div>
             </td>
             </tr>
         
             <tr>
-            <td class="col-2">50-500</td>
-            <td class="col-10">
+            <td class="col-1">50-500</td>
+            <td class="col-12">
                 <div class="progress bar-boarder bg-dark">
-                <div class="progress-bar overflow-visible bg-ping text-start fw-semibold" style="width: 0.55%; height:25px">
-                    31 | 0.55%</div>
+                <div class="progress-bar overflow-visible bar-ping rounded" style="width: 0.55%; height:25px">
+                    <span class="badge text-start">
+                    31 | 0.55%
+                    </span>
+                </div>
                 </div>
             </td>
             </tr>
         
         <tr>
-        <td class="col-2 text-danger">Failed</td>
-        <td class="col-10">
+        <td class="col-1 text-danger">Failed</td>
+        <td class="col-12">
             <div class="progress bar-boarder-danger bg-dark">
-            <div class="progress-bar overflow-visible bg-danger text-secondary fw-semibold" style="width: 0%; height:25px">
-                3 | 0%</div>
+            <div class="progress-bar overflow-visible bg-danger  rounded" style="width: 0%; height:25px">
+                <span class="badge-failed text-start">
+                3 | 0%
+                </span>
+            </div>
             </div>
         </td>
         </tr>
@@ -304,14 +386,14 @@
 
 <div class="divider"></div>
 
-<h2 class="">Error 404_EXT</h2>
+<h2 class=""><i class="nf nf-md-wifi"></i>Wifi: Error 404_EXT</h2>
 <h3 class="">Signal Strength</h2>
 
     <div class="progress bg-dark bar-boarder" style="height: 25px;">
         <div class="progress-bar bg-dark " role="progressbar" style="width: 57.00%" aria-valuemin="0" aria-valuemax="100"></div>
-        <div class="progress-bar bg-signalstrength-1 fw-semibold" role="progressbar" style="width: 22.77%" aria-valuemin="0" aria-valuemax="100">57%</div>
-        <div class="progress-bar bg-signalstrength-2 fw-semibold" role="progressbar" style="width: 10.00%" aria-valuemin="0" aria-valuemax="100">85%</div>
-        <div class="progress-bar bg-signalstrength-1 fw-semibold" role="progressbar" style="width: 15.23%" aria-valuemin="0" aria-valuemax="100">95%</div>
+        <div class="progress-bar rounded-start-2 bg-signalstrength-1 fw-semibold" role="progressbar" style="width: 25.77%" aria-valuemin="0" aria-valuemax="100">57%</div>
+        <div class="progress-bar  bg-signalstrength-2 fw-semibold" role="progressbar" style="width: 4.00%" aria-valuemin="0" aria-valuemax="100">85%</div>
+        <div class="progress-bar rounded-end-2 bg-signalstrength-1 fw-semibold" role="progressbar" style="width: 8.23%" aria-valuemin="0" aria-valuemax="100">95%</div>
     </div>
 
 <br />
@@ -327,91 +409,118 @@
     <tbody>
     
             <tr>
-            <td class="col-2">0-5</td>
-            <td class="col-10">
+            <td class="col-1">0-5</td>
+            <td class="col-12">
                 <div class="progress bar-boarder bg-dark">
-                <div class="progress-bar overflow-visible bg-ping text-start fw-semibold" style="width: 0.0%; height:25px">
-                    0 | 0.0%</div>
+                <div class="progress-bar overflow-visible bar-ping rounded" style="width: 0.0%; height:25px">
+                    <span class="badge text-start">
+                    0 | 0.0%
+                    </span>
+                </div>
                 </div>
             </td>
             </tr>
         
             <tr>
-            <td class="col-2">5-10</td>
-            <td class="col-10">
+            <td class="col-1">5-10</td>
+            <td class="col-12">
                 <div class="progress bar-boarder bg-dark">
-                <div class="progress-bar overflow-visible bg-ping text-start fw-semibold" style="width: 3.4%; height:25px">
-                    160 | 3.4%</div>
+                <div class="progress-bar overflow-visible bar-ping rounded" style="width: 3.4%; height:25px">
+                    <span class="badge text-start">
+                    160 | 3.4%
+                    </span>
+                </div>
                 </div>
             </td>
             </tr>
         
             <tr>
-            <td class="col-2">10-15</td>
-            <td class="col-10">
+            <td class="col-1">10-15</td>
+            <td class="col-12">
                 <div class="progress bar-boarder bg-dark">
-                <div class="progress-bar overflow-visible bg-ping text-start fw-semibold" style="width: 65.22%; height:25px">
-                    3071 | 65.22%</div>
+                <div class="progress-bar overflow-visible bar-ping rounded" style="width: 65.22%; height:25px">
+                    <span class="badge text-start">
+                    3071 | 65.22%
+                    </span>
+                </div>
                 </div>
             </td>
             </tr>
         
             <tr>
-            <td class="col-2">15-20</td>
-            <td class="col-10">
+            <td class="col-1">15-20</td>
+            <td class="col-12">
                 <div class="progress bar-boarder bg-dark">
-                <div class="progress-bar overflow-visible bg-ping text-start fw-semibold" style="width: 19.11%; height:25px">
-                    900 | 19.11%</div>
+                <div class="progress-bar overflow-visible bar-ping rounded" style="width: 19.11%; height:25px">
+                    <span class="badge text-start">
+                    900 | 19.11%
+                    </span>
+                </div>
                 </div>
             </td>
             </tr>
         
             <tr>
-            <td class="col-2">20-30</td>
-            <td class="col-10">
+            <td class="col-1">20-30</td>
+            <td class="col-12">
                 <div class="progress bar-boarder bg-dark">
-                <div class="progress-bar overflow-visible bg-ping text-start fw-semibold" style="width: 7.56%; height:25px">
-                    356 | 7.56%</div>
+                <div class="progress-bar overflow-visible bar-ping rounded" style="width: 7.56%; height:25px">
+                    <span class="badge text-start">
+                    356 | 7.56%
+                    </span>
+                </div>
                 </div>
             </td>
             </tr>
         
             <tr>
-            <td class="col-2">30-40</td>
-            <td class="col-10">
+            <td class="col-1">30-40</td>
+            <td class="col-12">
                 <div class="progress bar-boarder bg-dark">
-                <div class="progress-bar overflow-visible bg-ping text-start fw-semibold" style="width: 1.81%; height:25px">
-                    85 | 1.81%</div>
+                <div class="progress-bar overflow-visible bar-ping rounded" style="width: 1.81%; height:25px">
+                    <span class="badge text-start">
+                    85 | 1.81%
+                    </span>
+                </div>
                 </div>
             </td>
             </tr>
         
             <tr>
-            <td class="col-2">40-50</td>
-            <td class="col-10">
+            <td class="col-1">40-50</td>
+            <td class="col-12">
                 <div class="progress bar-boarder bg-dark">
-                <div class="progress-bar overflow-visible bg-ping text-start fw-semibold" style="width: 0.96%; height:25px">
-                    45 | 0.96%</div>
+                <div class="progress-bar overflow-visible bar-ping rounded" style="width: 0.96%; height:25px">
+                    <span class="badge text-start">
+                    45 | 0.96%
+                    </span>
+                </div>
                 </div>
             </td>
             </tr>
         
             <tr>
-            <td class="col-2">50-500</td>
-            <td class="col-10">
+            <td class="col-1">50-500</td>
+            <td class="col-12">
                 <div class="progress bar-boarder bg-dark">
-                <div class="progress-bar overflow-visible bg-ping text-start fw-semibold" style="width: 1.95%; height:25px">
-                    92 | 1.95%</div>
+                <div class="progress-bar overflow-visible bar-ping rounded" style="width: 1.95%; height:25px">
+                    <span class="badge text-start">
+                    92 | 1.95%
+                    </span>
+                </div>
                 </div>
             </td>
             </tr>
         
         <tr>
-        <td class="col-2 text-danger">Failed</td>
-        <td class="col-10">
+        <td class="col-1 text-danger">Failed</td>
+        <td class="col-12">
             <div class="progress bar-boarder-danger bg-dark">
-            <div class="progress-bar overflow-visible bg-danger text-secondary fw-semibold" style="width: 0%; height:25px">
-                3 | 0%</div>
+            <div class="progress-bar overflow-visible bg-danger  rounded" style="width: 0%; height:25px">
+                <span class="badge-failed text-start">
+                3 | 0%
+                </span>
+            </div>
             </div>
         </td>
         </tr>
