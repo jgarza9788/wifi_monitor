@@ -206,14 +206,14 @@ for i in os.listdir(RDIR):
 
 
 segment = """
-<h2 class="">{%segment_header%}</h2>
+<h2 class=""><i class="nf nf-md-wifi"></i>Wifi: {%segment_header%}</h2>
 <h3 class="">Signal Strength</h2>
 
     <div class="progress bg-dark bar-boarder" style="height: 25px;">
         <div class="progress-bar bg-dark " role="progressbar" style="width: {%zeromin%}%" aria-valuemin="0" aria-valuemax="100"></div>
-        <div class="progress-bar bg-signalstrength-1 fw-semibold" role="progressbar" style="width: {%minmean%}%" aria-valuemin="0" aria-valuemax="100">{%ssmin%}%</div>
-        <div class="progress-bar bg-signalstrength-2 fw-semibold" role="progressbar" style="width: {%meanmean%}%" aria-valuemin="0" aria-valuemax="100">{%ssmean%}%</div>
-        <div class="progress-bar bg-signalstrength-1 fw-semibold" role="progressbar" style="width: {%meanmax%}%" aria-valuemin="0" aria-valuemax="100">{%ssmax%}%</div>
+        <div class="progress-bar rounded-start-2 bg-signalstrength-1 fw-semibold" role="progressbar" style="width: {%minmean%}%" aria-valuemin="0" aria-valuemax="100">{%ssmin%}%</div>
+        <div class="progress-bar  bg-signalstrength-2 fw-semibold" role="progressbar" style="width: {%meanmean%}%" aria-valuemin="0" aria-valuemax="100">{%ssmean%}%</div>
+        <div class="progress-bar rounded-end-2 bg-signalstrength-1 fw-semibold" role="progressbar" style="width: {%meanmax%}%" aria-valuemin="0" aria-valuemax="100">{%ssmax%}%</div>
     </div>
 
 <br />
@@ -244,9 +244,9 @@ for k in data.keys():
     ssmax = max(data[k]["signalstrength"])
 
     ns = ns.replace('{%zeromin%}',f'{ssmin:.2f}')
-    ns = ns.replace('{%minmean%}',f'{ssmean-ssmin-5:.2f}')
-    ns = ns.replace('{%meanmean%}',f'{10:.2f}')
-    ns = ns.replace('{%meanmax%}',f'{ssmax-ssmean+5:.2f}')
+    ns = ns.replace('{%minmean%}',f'{ssmean-ssmin-2:.2f}')
+    ns = ns.replace('{%meanmean%}',f'{4:.2f}')
+    ns = ns.replace('{%meanmax%}',f'{ssmax-ssmean-2:.2f}')
 
     ns = ns.replace('{%ssmin%}',f'{ssmin:.0f}')
     ns = ns.replace('{%ssmean%}',f'{ssmean:.0f}')
@@ -282,22 +282,28 @@ for k in data.keys():
         bucket = re.sub(r' ', '', bucket)
         tbl += f"""
             <tr>
-            <td class="col-2">{bucket}</td>
-            <td class="col-10">
+            <td class="col-1">{bucket}</td>
+            <td class="col-12">
                 <div class="progress bar-boarder bg-dark">
-                <div class="progress-bar overflow-visible bg-ping text-start fw-semibold" style="width: {row['percent']}%; height:25px">
-                    {row[0]} | {row['percent']}%</div>
+                <div class="progress-bar overflow-visible bar-ping rounded" style="width: {row['percent']}%; height:25px">
+                    <span class="badge text-start">
+                    {row[0]} | {row['percent']}%
+                    </span>
+                </div>
                 </div>
             </td>
             </tr>
         """
     tbl += f"""
         <tr>
-        <td class="col-2 text-danger">Failed</td>
-        <td class="col-10">
+        <td class="col-1 text-danger">Failed</td>
+        <td class="col-12">
             <div class="progress bar-boarder-danger bg-dark">
-            <div class="progress-bar overflow-visible bg-danger text-secondary fw-semibold" style="width: {failed_percent}%; height:25px">
-                {failed_pings} | {failed_percent}%</div>
+            <div class="progress-bar overflow-visible bg-danger  rounded" style="width: {failed_percent}%; height:25px">
+                <span class="badge-failed text-start">
+                {failed_pings} | {failed_percent}%
+                </span>
+            </div>
             </div>
         </td>
         </tr>
