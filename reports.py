@@ -254,6 +254,7 @@ for k in data.keys():
 
     df_pings = pd.DataFrame(data[k]['pings'])
     bdb = break_down_buckets(df_pings,0,[0,5,10,15,20,30,40,50,500])
+    # bdb = break_down_buckets(df_pings,0,range(0,100,5))
     bdb['bar'] = bdb.percent.apply(bar)
     bdb = bdb.reset_index()
 
