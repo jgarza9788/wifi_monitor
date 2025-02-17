@@ -13,6 +13,8 @@ WIFI Monitor
 
 ### Linux
 `./wifi_test.sh`
+* issues using the linux script(s) due to the static IP i am using on my linux box
+
 
 ## link
 https://jgarza9788.github.io/wifi_monitor/
