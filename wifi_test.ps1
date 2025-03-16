@@ -41,24 +41,24 @@ function DoGit()
 
 # test Error 404
 Connect-ToWiFi -wifiName "Error 404"
-Start-Sleep -Seconds 10.0
-.\pinger.ps1
-Write-Host ""
-DoGit
+# Start-Sleep -Seconds 10.0
+# .\pinger.ps1
+# Write-Host ""
+# DoGit
 
 # test Error 404_EXT
 Connect-ToWiFi -wifiName "Error 404_EXT"
-Start-Sleep -Seconds 10.0
-.\pinger.ps1
-Write-Host ""
-DoGit
+# Start-Sleep -Seconds 10.0
+# .\pinger.ps1
+# Write-Host ""
+# DoGit
 
 # test Error 404 NH
 Connect-ToWiFi -wifiName "Error 404 NH"
-Start-Sleep -Seconds 10.0
-.\pinger.ps1
-Write-Host ""
-DoGit
+# Start-Sleep -Seconds 10.0
+# .\pinger.ps1
+# Write-Host ""
+# DoGit
 
 
 # generate report
