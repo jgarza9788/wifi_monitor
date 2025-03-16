@@ -3,7 +3,7 @@ $thisDate = Get-Date
 
 # test Error 404
 netsh wlan connect name="Error 404"
-Start-Sleep -Seconds 30.0
+Start-Sleep -Seconds 20.0
 .\pinger.ps1
 Write-Host ""
 
@@ -14,7 +14,7 @@ Write-Host ""
 
 # test Error 404_EXT
 netsh wlan connect name="Error 404_EXT"
-Start-Sleep -Seconds 30.0
+Start-Sleep -Seconds 20.0
 .\pinger.ps1
 Write-Host ""
 
@@ -25,7 +25,7 @@ Write-Host ""
 
 # test Error 404 NH
 netsh wlan connect name="Error 404 NH"
-Start-Sleep -Seconds 30.0
+Start-Sleep -Seconds 20.0
 .\pinger.ps1
 Write-Host ""
 
