@@ -1,0 +1,32 @@
+SSID: Error 404 NH
+Datetime: 03/15/2025 23:14:50
+Datetime_alt: 202503152314
+Signal_Strength: 89% 
+
+Pinging google.com [64.233.185.113] with 32 bytes of data:
+Reply from 64.233.185.113: bytes=32 time=122ms TTL=106
+Reply from 64.233.185.113: bytes=32 time=100ms TTL=106
+Reply from 64.233.185.113: bytes=32 time=58ms TTL=106
+Reply from 64.233.185.113: bytes=32 time=109ms TTL=106
+Reply from 64.233.185.113: bytes=32 time=132ms TTL=106
+Reply from 64.233.185.113: bytes=32 time=87ms TTL=106
+Reply from 64.233.185.113: bytes=32 time=11ms TTL=106
+Reply from 64.233.185.113: bytes=32 time=112ms TTL=106
+Reply from 64.233.185.113: bytes=32 time=141ms TTL=106
+Reply from 64.233.185.113: bytes=32 time=173ms TTL=106
+Reply from 64.233.185.113: bytes=32 time=230ms TTL=106
+Reply from 64.233.185.113: bytes=32 time=81ms TTL=106
+Reply from 64.233.185.113: bytes=32 time=138ms TTL=106
+Reply from 64.233.185.113: bytes=32 time=90ms TTL=106
+Reply from 64.233.185.113: bytes=32 time=182ms TTL=106
+Reply from 64.233.185.113: bytes=32 time=609ms TTL=106
+Reply from 64.233.185.113: bytes=32 time=134ms TTL=106
+Reply from 64.233.185.113: bytes=32 time=60ms TTL=106
+Reply from 64.233.185.113: bytes=32 time=117ms TTL=106
+Reply from 64.233.185.113: bytes=32 time=165ms TTL=106
+
+Ping statistics for 64.233.185.113:
+    Packets: Sent = 20, Received = 20, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 11ms, Maximum = 609ms, Average = 142ms
+Control-C
