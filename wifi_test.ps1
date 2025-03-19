@@ -1,6 +1,9 @@
 
 $thisDate = Get-Date
 
+# Start-Process ms-settings:network-wifi
+netsh wlan show networks mode=bssid
+
 
 function Connect-ToWiFi {
     param (
