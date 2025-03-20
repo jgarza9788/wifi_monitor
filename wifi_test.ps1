@@ -2,6 +2,7 @@
 $thisDate = Get-Date
 
 # Start-Process ms-settings:network-wifi
+# netsh wlan show networks mode=bssid
 netsh wlan show networks mode=bssid
 
 
@@ -40,6 +41,12 @@ function DoGit()
     git push
     Write-Host "✅ pushed"
 }
+
+
+Connect-ToWiFi -wifiName "Error 404"
+Connect-ToWiFi -wifiName "Error 404 NH"
+Connect-ToWiFi -wifiName "Error 404_EXT"
+
 
 
 # test Error 404
