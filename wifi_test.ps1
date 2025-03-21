@@ -1,15 +1,16 @@
 
 $thisDate = Get-Date
 
-# Start-Process ms-settings:network-wifi
-# netsh wlan show networks mode=bssid
-netsh wlan show networks mode=bssid
 
+$SSIDs = @("Error 404", "Error 404 NH", "Error 404_EXT")
+
+$WIV = Start-Process ".\wifiinfoview\WifiInfoView.exe" -PassThru
+Start-Sleep -Seconds 5
 
 function Connect-ToWiFi {
     param (
         [string]$wifiName,
-        [int]$retryInterval = 10,
+        [int]$retryInterval = 5,
         [int]$maxTries = 5
     )
 
@@ -33,7 +34,6 @@ function Connect-ToWiFi {
     return $false
 }
 
-
 function DoGit()
 {
     git add *
@@ -42,34 +42,19 @@ function DoGit()
     Write-Host "✅ pushed"
 }
 
+foreach ($ssid in $SSIDs) {
 
-Connect-ToWiFi -wifiName "Error 404"
-Connect-ToWiFi -wifiName "Error 404 NH"
-Connect-ToWiFi -wifiName "Error 404_EXT"
-
-
-
-# test Error 404
-Connect-ToWiFi -wifiName "Error 404"
-Start-Sleep -Seconds 10.0
-.\pinger.ps1
-Write-Host ""
-DoGit
-
-# test Error 404 NH
-Connect-ToWiFi -wifiName "Error 404 NH"
-Start-Sleep -Seconds 10.0
-.\pinger.ps1
-Write-Host ""
-DoGit
-
-# test Error 404_EXT
-Connect-ToWiFi -wifiName "Error 404_EXT"
-Start-Sleep -Seconds 10.0
-.\pinger.ps1
-Write-Host ""
-DoGit
+    Write-Output "🟢 $ssid"
+    Connect-ToWiFi -wifiName "$ssid"
+    Start-Sleep -Seconds 10.0
+    .\pinger.ps1
+    Write-Host ""
+    DoGit
+    
+}
 
 # generate report
 jupyter nbconvert --to python --execute reports.ipynb
 DoGit
+
+$WIV.kill()

@@ -1,0 +1,27 @@
+SSID: Error 404
+Datetime: 03/20/2025 21:18:03
+Datetime_alt: 202503202118
+Signal_Strength: 62% 
+
+Pinging google.com [2607:f8b0:4002:c02::71] with 32 bytes of data:
+Reply from 2607:f8b0:4002:c02::71: time=17ms 
+Reply from 2607:f8b0:4002:c02::71: time=87ms 
+Reply from 2607:f8b0:4002:c02::71: time=20ms 
+Reply from 2607:f8b0:4002:c02::71: time=11ms 
+Reply from 2607:f8b0:4002:c02::71: time=44ms 
+Reply from 2607:f8b0:4002:c02::71: time=39ms 
+Reply from 2607:f8b0:4002:c02::71: time=9ms 
+Reply from 2607:f8b0:4002:c02::71: time=9ms 
+Reply from 2607:f8b0:4002:c02::71: time=76ms 
+Reply from 2607:f8b0:4002:c02::71: time=123ms 
+Reply from 2607:f8b0:4002:c02::71: time=14ms 
+Reply from 2607:f8b0:4002:c02::71: time=35ms 
+Reply from 2607:f8b0:4002:c02::71: time=10ms 
+Reply from 2607:f8b0:4002:c02::71: time=99ms 
+Reply from 2607:f8b0:4002:c02::71: time=9ms 
+
+Ping statistics for 2607:f8b0:4002:c02::71:
+    Packets: Sent = 15, Received = 15, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 9ms, Maximum = 123ms, Average = 40ms
+Control-C
