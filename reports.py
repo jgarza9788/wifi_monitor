@@ -72,8 +72,8 @@ def bar(num,denom=100.0,length=30,fillchar='█',emptychar='░'):
 DateFilter = None
 DateFilter = 202501100000 # new firmware r44715
 # DateFilter = 202501160000 # changed some settings in Error 404 NH
-# DateFilter = 202503000000
-DateFilter = 202503200000
+DateFilter = 202503000000
+# DateFilter = 202503200000
 # DateFilter = 202502080000
 
 

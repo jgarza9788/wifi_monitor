@@ -45,11 +45,11 @@ function DoGit()
 foreach ($ssid in $SSIDs) {
 
     Write-Output "🟢 $ssid"
-    Connect-ToWiFi -wifiName "$ssid"
-    Start-Sleep -Seconds 10.0
-    .\pinger.ps1
-    Write-Host ""
-    DoGit
+    # Connect-ToWiFi -wifiName "$ssid"
+    # Start-Sleep -Seconds 10.0
+    # .\pinger.ps1
+    # Write-Host ""
+    # DoGit
     
 }
 
