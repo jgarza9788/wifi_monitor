@@ -58,3 +58,4 @@ jupyter nbconvert --to python --execute reports.ipynb
 DoGit
 
 $WIV.kill()
+
