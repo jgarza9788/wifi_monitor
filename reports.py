@@ -211,11 +211,8 @@ segment = """
 <h2 class=""><i class="nf nf-md-wifi"></i>Wifi: {%segment_header%}</h2>
 <h3 class="">Signal Strength</h2>
 
-    <div class="progress bg-dark bar-boarder" style="height: 25px;">
-        <div class="progress-bar bg-dark " role="progressbar" style="width: {%zeromin%}%" aria-valuemin="0" aria-valuemax="100"></div>
-        <div class="progress-bar rounded-start-2 bg-signalstrength-1 fw-semibold" role="progressbar" style="width: {%minmean%}%" aria-valuemin="0" aria-valuemax="100">{%ssmin%}%</div>
-        <div class="progress-bar  bg-signalstrength-2 fw-semibold" role="progressbar" style="width: {%meanmean%}%" aria-valuemin="0" aria-valuemax="100">{%ssmean%}%</div>
-        <div class="progress-bar rounded-end-2 bg-signalstrength-1 fw-semibold" role="progressbar" style="width: {%meanmax%}%" aria-valuemin="0" aria-valuemax="100">{%ssmax%}%</div>
+    <div class="progress bg-dark bar-boarder SSbar" style="height: 25px;">
+        {%signalstrength%}
     </div>
 
 <br />
@@ -241,18 +238,25 @@ for k in data.keys():
 
     ns = ns.replace('{%segment_header%}',k)
 
-    ssmin = min(data[k]["signalstrength"])
-    ssmean = sum(data[k]["signalstrength"])/len(data[k]["signalstrength"])
-    ssmax = max(data[k]["signalstrength"])
+    ss = ""
+    for i in data[k]['signalstrength']:
+        print(i)
+        ss += f"""<div class="signalstrength-point rounded rounded-circle" style="left: {i}%;"></div>"""
 
-    ns = ns.replace('{%zeromin%}',f'{ssmin:.2f}')
-    ns = ns.replace('{%minmean%}',f'{ssmean-ssmin-2:.2f}')
-    ns = ns.replace('{%meanmean%}',f'{4:.2f}')
-    ns = ns.replace('{%meanmax%}',f'{ssmax-ssmean-2:.2f}')
+    ns = ns.replace('{%signalstrength%}',ss)
 
-    ns = ns.replace('{%ssmin%}',f'{ssmin:.0f}')
-    ns = ns.replace('{%ssmean%}',f'{ssmean:.0f}')
-    ns = ns.replace('{%ssmax%}',f'{ssmax:.0f}')
+    # ssmin = min(data[k]["signalstrength"])
+    # ssmean = sum(data[k]["signalstrength"])/len(data[k]["signalstrength"])
+    # ssmax = max(data[k]["signalstrength"])
+
+    # ns = ns.replace('{%zeromin%}',f'{ssmin:.2f}')
+    # ns = ns.replace('{%minmean%}',f'{ssmean-ssmin-2:.2f}')
+    # ns = ns.replace('{%meanmean%}',f'{4:.2f}')
+    # ns = ns.replace('{%meanmax%}',f'{ssmax-ssmean-2:.2f}')
+
+    # ns = ns.replace('{%ssmin%}',f'{ssmin:.0f}')
+    # ns = ns.replace('{%ssmean%}',f'{ssmean:.0f}')
+    # ns = ns.replace('{%ssmax%}',f'{ssmax:.0f}')
 
     df_pings = pd.DataFrame(data[k]['pings'])
     bdb = break_down_buckets(df_pings,0,[0,5,10,15,20,30,40,50,500])
@@ -297,6 +301,7 @@ for k in data.keys():
             </td>
             </tr>
         """
+        
     tbl += f"""
         <tr>
         <td class="col-1 text-danger">Failed</td>
