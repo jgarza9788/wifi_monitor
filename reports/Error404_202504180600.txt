@@ -1,0 +1,4 @@
+SSID: Error 404
+Datetime: 04/18/2025 06:00:16
+Datetime_alt: 202504180600
+Signal_Strength: 65% 
