@@ -2,3 +2,20 @@ SSID: Error 404_EXT
 Datetime: 04/18/2025 06:04:03
 Datetime_alt: 202504180604
 Signal_Strength: 86% 
+
+Pinging google.com [2607:f8b0:4002:c09::8a] with 32 bytes of data:
+Reply from 2607:f8b0:4002:c09::8a: time=62ms 
+Reply from 2607:f8b0:4002:c09::8a: time=33ms 
+Reply from 2607:f8b0:4002:c09::8a: time=39ms 
+Reply from 2607:f8b0:4002:c09::8a: time=58ms 
+Reply from 2607:f8b0:4002:c09::8a: time=68ms 
+Reply from 2607:f8b0:4002:c09::8a: time=88ms 
+Reply from 2607:f8b0:4002:c09::8a: time=49ms 
+Reply from 2607:f8b0:4002:c09::8a: time=109ms 
+Reply from 2607:f8b0:4002:c09::8a: time=12ms 
+Reply from 2607:f8b0:4002:c09::8a: time=11ms 
+Reply from 2607:f8b0:4002:c09::8a: time=13ms 
+Reply from 2607:f8b0:4002:c09::8a: time=14ms 
+Reply from 2607:f8b0:4002:c09::8a: time=14ms 
+Reply from 2607:f8b0:4002:c09::8a: time=13ms 
+Reply from 2607:f8b0:4002:c09::8a: time=29ms 
