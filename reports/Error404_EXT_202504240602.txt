@@ -1,0 +1,4 @@
+SSID: Error 404_EXT
+Datetime: 04/24/2025 06:02:17
+Datetime_alt: 202504240602
+Signal_Strength: 86% 
