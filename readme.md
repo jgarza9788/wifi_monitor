@@ -18,3 +18,18 @@ WIFI Monitor
 
 ## link
 https://jgarza9788.github.io/wifi_monitor/
+
+---
+
+http://192.168.1.2/Wireless_Basic.asp
+--> wireless 
+--> basic settings
+Radio Mode: Repeater bridge
+[Apply Settings] 
+
+---
+
+# ERROR 404
+
+## for the IP Allocation settings
+192.168.1.254 -> login -> home network -> IP Allocation
