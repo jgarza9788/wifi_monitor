@@ -42,14 +42,14 @@ def break_down_buckets(idf,column,buckets,message='',nan_value=-1):
     """
     idf = idf.fillna(nan_value)
 
-    print('',message,'\ncolumn: ',column, '\nbuckets: ', buckets)
+    # print('',message,'\ncolumn: ',column, '\nbuckets: ', buckets)
     
     idf = pd.DataFrame(idf[column])
     idf['bucket'] = pd.cut(idf[column], bins=buckets)
-    idf = idf.groupby(by='bucket').count()
+    idf = idf.groupby(by='bucket',observed=False).count()
     idf['percent'] = (idf[column]/idf[column].sum())*100
     idf['percent'] = idf['percent'].round(2)
-    display(idf)
+    # display(idf)
 
     return idf
 
@@ -234,13 +234,15 @@ template = template.replace('{%report_header%}',str(current_datetime))
 
 segments = ''
 for k in data.keys():
+    # print(f"{k=}")
+    
     ns = segment
 
     ns = ns.replace('{%segment_header%}',k)
 
     ss = ""
     for i in data[k]['signalstrength']:
-        print(i)
+        # print(i)
         ss += f"""<div class="signalstrength-point rounded rounded-circle" style="left: {i}%;"></div>"""
 
     ns = ns.replace('{%signalstrength%}',ss)
@@ -259,10 +261,17 @@ for k in data.keys():
     # ns = ns.replace('{%ssmax%}',f'{ssmax:.0f}')
 
     df_pings = pd.DataFrame(data[k]['pings'])
-    bdb = break_down_buckets(df_pings,0,[0,5,10,15,20,30,40,50,500])
-    # bdb = break_down_buckets(df_pings,0,range(0,100,5))
-    bdb['bar'] = bdb.percent.apply(bar)
-    bdb = bdb.reset_index()
+    try:
+        bdb = break_down_buckets(df_pings,0,[0,5,10,15,20,30,40,50,500])
+        # bdb = break_down_buckets(df_pings,0,range(0,100,5))
+        bdb['bar'] = bdb.percent.apply(bar)
+        bdb = bdb.reset_index()
+    except Exception as e:
+        print(f"k")
+        print(data[k])
+        # print(str(e))
+        # print(f'Error: {e}')
+        continue
 
     # ns = ns.replace('{%ping_table%}',bdb.to_html(index=False,justify='left'))
     # ns = ns.replace('\"dataframe\"','\"table table-dark table-striped\"')
@@ -282,7 +291,7 @@ for k in data.keys():
     <tbody>
     """
     for i,row in bdb.iterrows():
-        print(i)
+        # print(i)
         # bucket = row['bucket']
         bucket = re.sub(r'[\(\]]', '', str(row['bucket']))
         bucket = re.sub(r',', '-', bucket)
