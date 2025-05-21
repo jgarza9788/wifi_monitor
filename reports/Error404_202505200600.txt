@@ -1,0 +1,111 @@
+SSID: Error 404
+Datetime: 05/20/2025 06:00:16
+Datetime_alt: 202505200600
+Signal_Strength: 78% 
+
+Pinging google.com [2607:f8b0:4002:c03::65] with 32 bytes of data:
+Reply from 2607:f8b0:4002:c03::65: time=134ms 
+Reply from 2607:f8b0:4002:c03::65: time=63ms 
+Reply from 2607:f8b0:4002:c03::65: time=37ms 
+Reply from 2607:f8b0:4002:c03::65: time=45ms 
+Reply from 2607:f8b0:4002:c03::65: time=116ms 
+Reply from 2607:f8b0:4002:c03::65: time=25ms 
+Reply from 2607:f8b0:4002:c03::65: time=86ms 
+Reply from 2607:f8b0:4002:c03::65: time=10ms 
+Reply from 2607:f8b0:4002:c03::65: time=37ms 
+Reply from 2607:f8b0:4002:c03::65: time=113ms 
+Reply from 2607:f8b0:4002:c03::65: time=20ms 
+Reply from 2607:f8b0:4002:c03::65: time=8ms 
+Reply from 2607:f8b0:4002:c03::65: time=10ms 
+Reply from 2607:f8b0:4002:c03::65: time=57ms 
+Reply from 2607:f8b0:4002:c03::65: time=109ms 
+Reply from 2607:f8b0:4002:c03::65: time=12ms 
+Reply from 2607:f8b0:4002:c03::65: time=48ms 
+Reply from 2607:f8b0:4002:c03::65: time=116ms 
+Reply from 2607:f8b0:4002:c03::65: time=29ms 
+Reply from 2607:f8b0:4002:c03::65: time=11ms 
+Reply from 2607:f8b0:4002:c03::65: time=9ms 
+Reply from 2607:f8b0:4002:c03::65: time=78ms 
+Reply from 2607:f8b0:4002:c03::65: time=123ms 
+Reply from 2607:f8b0:4002:c03::65: time=11ms 
+Reply from 2607:f8b0:4002:c03::65: time=13ms 
+Reply from 2607:f8b0:4002:c03::65: time=28ms 
+Reply from 2607:f8b0:4002:c03::65: time=85ms 
+Reply from 2607:f8b0:4002:c03::65: time=11ms 
+Reply from 2607:f8b0:4002:c03::65: time=65ms 
+Reply from 2607:f8b0:4002:c03::65: time=129ms 
+Reply from 2607:f8b0:4002:c03::65: time=8ms 
+Reply from 2607:f8b0:4002:c03::65: time=16ms 
+Reply from 2607:f8b0:4002:c03::65: time=28ms 
+Reply from 2607:f8b0:4002:c03::65: time=67ms 
+Reply from 2607:f8b0:4002:c03::65: time=10ms 
+Reply from 2607:f8b0:4002:c03::65: time=17ms 
+Reply from 2607:f8b0:4002:c03::65: time=101ms 
+Reply from 2607:f8b0:4002:c03::65: time=14ms 
+Reply from 2607:f8b0:4002:c03::65: time=10ms 
+Reply from 2607:f8b0:4002:c03::65: time=24ms 
+Reply from 2607:f8b0:4002:c03::65: time=47ms 
+Reply from 2607:f8b0:4002:c03::65: time=122ms 
+Reply from 2607:f8b0:4002:c03::65: time=9ms 
+Reply from 2607:f8b0:4002:c03::65: time=80ms 
+Reply from 2607:f8b0:4002:c03::65: time=10ms 
+Reply from 2607:f8b0:4002:c03::65: time=70ms 
+Reply from 2607:f8b0:4002:c03::65: time=11ms 
+Reply from 2607:f8b0:4002:c03::65: time=11ms 
+Reply from 2607:f8b0:4002:c03::65: time=60ms 
+Reply from 2607:f8b0:4002:c03::65: time=14ms 
+Reply from 2607:f8b0:4002:c03::65: time=74ms 
+Request timed out.
+Request timed out.
+Request timed out.
+Request timed out.
+Destination host unreachable.
+Destination host unreachable.
+PING: transmit failed. General failure. 
+PING: transmit failed. General failure. 
+PING: transmit failed. General failure. 
+PING: transmit failed. General failure. 
+PING: transmit failed. General failure. 
+PING: transmit failed. General failure. 
+PING: transmit failed. General failure. 
+PING: transmit failed. General failure. 
+PING: transmit failed. General failure. 
+PING: transmit failed. General failure. 
+PING: transmit failed. General failure. 
+PING: transmit failed. General failure. 
+PING: transmit failed. General failure. 
+PING: transmit failed. General failure. 
+PING: transmit failed. General failure. 
+PING: transmit failed. General failure. 
+PING: transmit failed. General failure. 
+PING: transmit failed. General failure. 
+PING: transmit failed. General failure. 
+PING: transmit failed. General failure. 
+PING: transmit failed. General failure. 
+PING: transmit failed. General failure. 
+PING: transmit failed. General failure. 
+PING: transmit failed. General failure. 
+PING: transmit failed. General failure. 
+PING: transmit failed. General failure. 
+PING: transmit failed. General failure. 
+PING: transmit failed. General failure. 
+PING: transmit failed. General failure. 
+PING: transmit failed. General failure. 
+PING: transmit failed. General failure. 
+PING: transmit failed. General failure. 
+PING: transmit failed. General failure. 
+PING: transmit failed. General failure. 
+PING: transmit failed. General failure. 
+PING: transmit failed. General failure. 
+PING: transmit failed. General failure. 
+PING: transmit failed. General failure. 
+PING: transmit failed. General failure. 
+PING: transmit failed. General failure. 
+PING: transmit failed. General failure. 
+PING: transmit failed. General failure. 
+PING: transmit failed. General failure. 
+
+Ping statistics for 2607:f8b0:4002:c03::65:
+    Packets: Sent = 100, Received = 51, Lost = 49 (49% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 8ms, Maximum = 134ms, Average = 47ms
