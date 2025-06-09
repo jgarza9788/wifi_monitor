@@ -1,0 +1,111 @@
+SSID: Error 404_EXT
+Datetime: 06/08/2025 22:31:04
+Datetime_alt: 202506082231
+Signal_Strength: 89% 
+
+Pinging google.com [142.251.15.139] with 32 bytes of data:
+Reply from 142.251.15.139: bytes=32 time=159ms TTL=109
+Reply from 142.251.15.139: bytes=32 time=51ms TTL=109
+Reply from 142.251.15.139: bytes=32 time=14ms TTL=109
+Reply from 142.251.15.139: bytes=32 time=79ms TTL=109
+Reply from 142.251.15.139: bytes=32 time=55ms TTL=109
+Reply from 142.251.15.139: bytes=32 time=40ms TTL=109
+Reply from 142.251.15.139: bytes=32 time=34ms TTL=109
+Reply from 142.251.15.139: bytes=32 time=29ms TTL=109
+Reply from 142.251.15.139: bytes=32 time=93ms TTL=109
+Reply from 142.251.15.139: bytes=32 time=24ms TTL=109
+Reply from 142.251.15.139: bytes=32 time=30ms TTL=109
+Reply from 142.251.15.139: bytes=32 time=18ms TTL=109
+Reply from 142.251.15.139: bytes=32 time=15ms TTL=109
+Reply from 142.251.15.139: bytes=32 time=127ms TTL=109
+Reply from 142.251.15.139: bytes=32 time=100ms TTL=109
+Reply from 142.251.15.139: bytes=32 time=60ms TTL=109
+Reply from 142.251.15.139: bytes=32 time=53ms TTL=109
+Reply from 142.251.15.139: bytes=32 time=34ms TTL=109
+Reply from 142.251.15.139: bytes=32 time=85ms TTL=109
+Reply from 142.251.15.139: bytes=32 time=16ms TTL=109
+Reply from 142.251.15.139: bytes=32 time=12ms TTL=109
+Reply from 142.251.15.139: bytes=32 time=87ms TTL=109
+Reply from 142.251.15.139: bytes=32 time=15ms TTL=109
+Reply from 142.251.15.139: bytes=32 time=20ms TTL=109
+Reply from 142.251.15.139: bytes=32 time=14ms TTL=109
+Reply from 142.251.15.139: bytes=32 time=46ms TTL=109
+Reply from 142.251.15.139: bytes=32 time=19ms TTL=109
+Reply from 142.251.15.139: bytes=32 time=30ms TTL=109
+Reply from 142.251.15.139: bytes=32 time=57ms TTL=109
+Reply from 142.251.15.139: bytes=32 time=129ms TTL=109
+Reply from 142.251.15.139: bytes=32 time=14ms TTL=109
+Reply from 142.251.15.139: bytes=32 time=144ms TTL=109
+Reply from 142.251.15.139: bytes=32 time=84ms TTL=109
+Reply from 142.251.15.139: bytes=32 time=49ms TTL=109
+Reply from 142.251.15.139: bytes=32 time=96ms TTL=109
+Reply from 142.251.15.139: bytes=32 time=11ms TTL=109
+Reply from 142.251.15.139: bytes=32 time=20ms TTL=109
+Reply from 142.251.15.139: bytes=32 time=15ms TTL=109
+Reply from 142.251.15.139: bytes=32 time=17ms TTL=109
+Reply from 142.251.15.139: bytes=32 time=34ms TTL=109
+Reply from 142.251.15.139: bytes=32 time=31ms TTL=109
+Reply from 142.251.15.139: bytes=32 time=18ms TTL=109
+Reply from 142.251.15.139: bytes=32 time=21ms TTL=109
+Reply from 142.251.15.139: bytes=32 time=25ms TTL=109
+Reply from 142.251.15.139: bytes=32 time=85ms TTL=109
+Reply from 142.251.15.139: bytes=32 time=102ms TTL=109
+Reply from 142.251.15.139: bytes=32 time=19ms TTL=109
+Reply from 142.251.15.139: bytes=32 time=121ms TTL=109
+Reply from 142.251.15.139: bytes=32 time=128ms TTL=109
+Reply from 142.251.15.139: bytes=32 time=136ms TTL=109
+Reply from 142.251.15.139: bytes=32 time=57ms TTL=109
+Reply from 142.251.15.139: bytes=32 time=16ms TTL=109
+Reply from 142.251.15.139: bytes=32 time=113ms TTL=109
+Reply from 142.251.15.139: bytes=32 time=15ms TTL=109
+Reply from 142.251.15.139: bytes=32 time=32ms TTL=109
+Reply from 142.251.15.139: bytes=32 time=30ms TTL=109
+Reply from 142.251.15.139: bytes=32 time=35ms TTL=109
+Reply from 142.251.15.139: bytes=32 time=32ms TTL=109
+Reply from 142.251.15.139: bytes=32 time=28ms TTL=109
+Reply from 142.251.15.139: bytes=32 time=21ms TTL=109
+Reply from 142.251.15.139: bytes=32 time=110ms TTL=109
+Reply from 142.251.15.139: bytes=32 time=32ms TTL=109
+Reply from 142.251.15.139: bytes=32 time=43ms TTL=109
+Reply from 142.251.15.139: bytes=32 time=43ms TTL=109
+Reply from 142.251.15.139: bytes=32 time=34ms TTL=109
+Reply from 142.251.15.139: bytes=32 time=20ms TTL=109
+Reply from 142.251.15.139: bytes=32 time=43ms TTL=109
+Reply from 142.251.15.139: bytes=32 time=21ms TTL=109
+Reply from 142.251.15.139: bytes=32 time=54ms TTL=109
+Reply from 142.251.15.139: bytes=32 time=21ms TTL=109
+Reply from 142.251.15.139: bytes=32 time=19ms TTL=109
+Reply from 142.251.15.139: bytes=32 time=76ms TTL=109
+Reply from 142.251.15.139: bytes=32 time=98ms TTL=109
+Reply from 142.251.15.139: bytes=32 time=27ms TTL=109
+Reply from 142.251.15.139: bytes=32 time=27ms TTL=109
+Reply from 142.251.15.139: bytes=32 time=44ms TTL=109
+Reply from 142.251.15.139: bytes=32 time=13ms TTL=109
+Reply from 142.251.15.139: bytes=32 time=12ms TTL=109
+Reply from 142.251.15.139: bytes=32 time=11ms TTL=109
+Reply from 142.251.15.139: bytes=32 time=74ms TTL=109
+Reply from 142.251.15.139: bytes=32 time=18ms TTL=109
+Reply from 142.251.15.139: bytes=32 time=37ms TTL=109
+Reply from 142.251.15.139: bytes=32 time=17ms TTL=109
+Reply from 142.251.15.139: bytes=32 time=21ms TTL=109
+Reply from 142.251.15.139: bytes=32 time=45ms TTL=109
+Reply from 142.251.15.139: bytes=32 time=113ms TTL=109
+Reply from 142.251.15.139: bytes=32 time=40ms TTL=109
+Reply from 142.251.15.139: bytes=32 time=33ms TTL=109
+Reply from 142.251.15.139: bytes=32 time=22ms TTL=109
+Reply from 142.251.15.139: bytes=32 time=15ms TTL=109
+Reply from 142.251.15.139: bytes=32 time=12ms TTL=109
+Reply from 142.251.15.139: bytes=32 time=18ms TTL=109
+Reply from 142.251.15.139: bytes=32 time=31ms TTL=109
+Reply from 142.251.15.139: bytes=32 time=13ms TTL=109
+Reply from 142.251.15.139: bytes=32 time=40ms TTL=109
+Reply from 142.251.15.139: bytes=32 time=44ms TTL=109
+Reply from 142.251.15.139: bytes=32 time=38ms TTL=109
+Reply from 142.251.15.139: bytes=32 time=162ms TTL=109
+Reply from 142.251.15.139: bytes=32 time=29ms TTL=109
+Reply from 142.251.15.139: bytes=32 time=33ms TTL=109
+
+Ping statistics for 142.251.15.139:
+    Packets: Sent = 100, Received = 100, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 11ms, Maximum = 162ms, Average = 46ms
