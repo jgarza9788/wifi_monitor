@@ -1,0 +1,5 @@
+SSID: 
+Datetime: 06/05/2025 00:17:30
+Datetime_alt: 202506050017
+Signal_Strength: 
+Ping request could not find host google.com. Please check the name and try again.
