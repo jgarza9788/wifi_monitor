@@ -1,5 +1,4 @@
-#!/bin/bash
-
+git
 thisDate=$(date)
 
 # # Test Error 404 NH
@@ -13,40 +12,40 @@ thisDate=$(date)
 # git push
 # echo ""
 
-# Test Error 404
-nmcli dev wifi connect "Error 404"
-sleep 15
-bash ./pinger.sh
-echo ""
+# # Test Error 404
+# nmcli dev wifi connect "Error 404"
+# sleep 15
+# bash ./pinger.sh
+# echo ""
 
-git add *
-git commit -m "wifi-test $thisDate"
-git push
-echo ""
+# git add *
+# git commit -m "wifi-test $thisDate"
+# git push
+# echo ""
 
-# Test Error 404_EXT
-nmcli dev wifi connect "Error 404_EXT"
-sleep 15
-bash ./pinger.sh
-echo ""
+# # Test Error 404_EXT
+# nmcli dev wifi connect "Error 404_EXT"
+# sleep 15
+# bash ./pinger.sh
+# echo ""
 
-git add *
-git commit -m "wifi-test $thisDate"
-git push
-echo ""
+# git add *
+# git commit -m "wifi-test $thisDate"
+# git push
+# echo ""
 
-thisDate=$(date)
+# thisDate=$(date)
 
-# Test Error 404_EXT
-nmcli dev wifi connect "Error 404_EXT"
-sleep 15
-bash ./pinger.sh
-echo ""
+# # Test Error 404_EXT
+# nmcli dev wifi connect "Error 404_EXT"
+# sleep 15
+# bash ./pinger.sh
+# echo ""
 
-git add *
-git commit -m "wifi-test $thisDate"
-git push
-echo ""
+# git add *
+# git commit -m "wifi-test $thisDate"
+# git push
+# echo ""
 
 thisDate=$(date)
 
