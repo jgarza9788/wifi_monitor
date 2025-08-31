@@ -1,70 +1,20 @@
-#!/bin/bash
+networks=(
+    "Error 404" 
+    "Error 404_EXT" 
+    "Error 404 NH" 
+    "Living Room Extension" 
+    "Living Room Extension_6GHz"
+)
 
-thisDate=$(date)
+for net in "${networks[@]}"; do
+    thisDate=$(date)
+    nmcli dev wifi connect "$net"
+    sleep 15
+    bash ./pinger.sh
+    echo ""
 
-# # Test Error 404 NH
-# nmcli dev wifi connect "Error 404 NH"
-# sleep 15
-# bash ./pinger.sh
-# echo ""
-
-# git add *
-# git commit -m "wifi-test $thisDate"
-# git push
-# echo ""
-
-# # Test Error 404
-# nmcli dev wifi connect "Error 404"
-# sleep 15
-# bash ./pinger.sh
-# echo ""
-
-# git add *
-# git commit -m "wifi-test $thisDate"
-# git push
-# echo ""
-
-# Test Error 404_EXT
-nmcli dev wifi connect "Error 404_EXT"
-sleep 15
-bash ./pinger.sh
-echo ""
-
-git add *
-git commit -m "wifi-test $thisDate"
-git push
-echo ""
-
-thisDate=$(date)
-
-# Test Error 404_EXT
-nmcli dev wifi connect "Error 404_EXT"
-sleep 15
-bash ./pinger.sh
-echo ""
-
-git add *
-git commit -m "wifi-test $thisDate"
-git push
-echo ""
-
-thisDate=$(date)
-
-# Test Error 404_EXT
-nmcli dev wifi connect "Error 404_EXT"
-sleep 15
-bash ./pinger.sh
-echo ""
-
-git add *
-git commit -m "wifi-test $thisDate"
-git push
-echo ""
-
-# # Generate report
-# jupyter nbconvert --to python --execute reports.ipynb
-
-# git add *
-# git commit -m "wifi-test $thisDate"
-# git push
-# echo ""
+    git add *
+    git commit -m "wifi-test $thisDate"
+    git push
+    echo ""
+done

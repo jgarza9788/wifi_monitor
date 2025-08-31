@@ -1,0 +1,47 @@
+SSID: Error 404
+Datetime: Sun Aug 31 01:18:54 PM EDT 2025
+Datetime_alt: 202508311318
+Signal_Strength: 50
+PING google.com (2607:f8b0:4002:c0c::64) 56 data bytes
+64 bytes from yi-in-f100.1e100.net (2607:f8b0:4002:c0c::64): icmp_seq=1 ttl=108 time=38.3 ms
+64 bytes from yi-in-f100.1e100.net (2607:f8b0:4002:c0c::64): icmp_seq=2 ttl=108 time=21.7 ms
+64 bytes from yi-in-f100.1e100.net (2607:f8b0:4002:c0c::64): icmp_seq=3 ttl=108 time=10.4 ms
+64 bytes from yi-in-f100.1e100.net (2607:f8b0:4002:c0c::64): icmp_seq=4 ttl=108 time=17.7 ms
+64 bytes from yi-in-f100.1e100.net (2607:f8b0:4002:c0c::64): icmp_seq=5 ttl=108 time=13.3 ms
+64 bytes from yi-in-f100.1e100.net (2607:f8b0:4002:c0c::64): icmp_seq=6 ttl=108 time=9.44 ms
+64 bytes from yi-in-f100.1e100.net (2607:f8b0:4002:c0c::64): icmp_seq=7 ttl=108 time=24.0 ms
+64 bytes from yi-in-f100.1e100.net (2607:f8b0:4002:c0c::64): icmp_seq=8 ttl=108 time=12.0 ms
+64 bytes from yi-in-f100.1e100.net (2607:f8b0:4002:c0c::64): icmp_seq=9 ttl=108 time=90.0 ms
+64 bytes from yi-in-f100.1e100.net (2607:f8b0:4002:c0c::64): icmp_seq=10 ttl=107 time=10.1 ms
+64 bytes from yi-in-f100.1e100.net (2607:f8b0:4002:c0c::64): icmp_seq=11 ttl=107 time=8.54 ms
+64 bytes from yi-in-f100.1e100.net (2607:f8b0:4002:c0c::64): icmp_seq=12 ttl=107 time=29.6 ms
+64 bytes from yi-in-f100.1e100.net (2607:f8b0:4002:c0c::64): icmp_seq=13 ttl=107 time=77.8 ms
+64 bytes from yi-in-f100.1e100.net (2607:f8b0:4002:c0c::64): icmp_seq=14 ttl=107 time=16.6 ms
+64 bytes from yi-in-f100.1e100.net (2607:f8b0:4002:c0c::64): icmp_seq=15 ttl=107 time=39.6 ms
+64 bytes from yi-in-f100.1e100.net (2607:f8b0:4002:c0c::64): icmp_seq=16 ttl=107 time=11.4 ms
+64 bytes from yi-in-f100.1e100.net (2607:f8b0:4002:c0c::64): icmp_seq=17 ttl=107 time=7.67 ms
+64 bytes from yi-in-f100.1e100.net (2607:f8b0:4002:c0c::64): icmp_seq=18 ttl=107 time=9.69 ms
+64 bytes from yi-in-f100.1e100.net (2607:f8b0:4002:c0c::64): icmp_seq=19 ttl=107 time=21.7 ms
+64 bytes from yi-in-f100.1e100.net (2607:f8b0:4002:c0c::64): icmp_seq=20 ttl=108 time=62.9 ms
+64 bytes from yi-in-f100.1e100.net (2607:f8b0:4002:c0c::64): icmp_seq=21 ttl=108 time=45.0 ms
+64 bytes from yi-in-f100.1e100.net (2607:f8b0:4002:c0c::64): icmp_seq=22 ttl=108 time=33.6 ms
+64 bytes from yi-in-f100.1e100.net (2607:f8b0:4002:c0c::64): icmp_seq=23 ttl=108 time=9.65 ms
+64 bytes from yi-in-f100.1e100.net (2607:f8b0:4002:c0c::64): icmp_seq=24 ttl=108 time=8.68 ms
+64 bytes from yi-in-f100.1e100.net (2607:f8b0:4002:c0c::64): icmp_seq=25 ttl=108 time=16.9 ms
+64 bytes from yi-in-f100.1e100.net (2607:f8b0:4002:c0c::64): icmp_seq=26 ttl=108 time=123 ms
+64 bytes from yi-in-f100.1e100.net (2607:f8b0:4002:c0c::64): icmp_seq=27 ttl=108 time=9.73 ms
+64 bytes from yi-in-f100.1e100.net (2607:f8b0:4002:c0c::64): icmp_seq=28 ttl=108 time=16.7 ms
+64 bytes from yi-in-f100.1e100.net (2607:f8b0:4002:c0c::64): icmp_seq=29 ttl=108 time=9.61 ms
+64 bytes from yi-in-f100.1e100.net (2607:f8b0:4002:c0c::64): icmp_seq=30 ttl=108 time=7.96 ms
+64 bytes from yi-in-f100.1e100.net (2607:f8b0:4002:c0c::64): icmp_seq=31 ttl=107 time=18.4 ms
+64 bytes from yi-in-f100.1e100.net (2607:f8b0:4002:c0c::64): icmp_seq=32 ttl=107 time=23.5 ms
+64 bytes from yi-in-f100.1e100.net (2607:f8b0:4002:c0c::64): icmp_seq=33 ttl=107 time=9.85 ms
+64 bytes from yi-in-f100.1e100.net (2607:f8b0:4002:c0c::64): icmp_seq=34 ttl=107 time=11.4 ms
+64 bytes from yi-in-f100.1e100.net (2607:f8b0:4002:c0c::64): icmp_seq=35 ttl=107 time=55.6 ms
+64 bytes from yi-in-f100.1e100.net (2607:f8b0:4002:c0c::64): icmp_seq=36 ttl=107 time=18.2 ms
+64 bytes from yi-in-f100.1e100.net (2607:f8b0:4002:c0c::64): icmp_seq=37 ttl=107 time=15.7 ms
+64 bytes from yi-in-f100.1e100.net (2607:f8b0:4002:c0c::64): icmp_seq=38 ttl=107 time=10.7 ms
+
+--- google.com ping statistics ---
+38 packets transmitted, 38 received, 0% packet loss, time 37047ms
+rtt min/avg/max/mdev = 7.674/25.691/122.738/25.194 ms
