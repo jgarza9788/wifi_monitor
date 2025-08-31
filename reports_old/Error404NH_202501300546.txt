@@ -1,0 +1,111 @@
+SSID: Error 404 NH
+Datetime: 01/30/2025 05:46:18
+Datetime_alt: 202501300546
+Signal_Strength: 85% 
+
+Pinging google.com [74.125.138.100] with 32 bytes of data:
+Reply from 74.125.138.100: bytes=32 time=13ms TTL=58
+Reply from 74.125.138.100: bytes=32 time=12ms TTL=58
+Reply from 74.125.138.100: bytes=32 time=13ms TTL=58
+Reply from 74.125.138.100: bytes=32 time=14ms TTL=58
+Reply from 74.125.138.100: bytes=32 time=10ms TTL=58
+Reply from 74.125.138.100: bytes=32 time=10ms TTL=58
+Reply from 74.125.138.100: bytes=32 time=11ms TTL=58
+Reply from 74.125.138.100: bytes=32 time=9ms TTL=58
+Reply from 74.125.138.100: bytes=32 time=712ms TTL=58
+Reply from 74.125.138.100: bytes=32 time=10ms TTL=58
+Reply from 74.125.138.100: bytes=32 time=14ms TTL=58
+Reply from 74.125.138.100: bytes=32 time=12ms TTL=58
+Reply from 74.125.138.100: bytes=32 time=14ms TTL=58
+Reply from 74.125.138.100: bytes=32 time=576ms TTL=58
+Reply from 74.125.138.100: bytes=32 time=320ms TTL=58
+Reply from 74.125.138.100: bytes=32 time=211ms TTL=58
+Reply from 74.125.138.100: bytes=32 time=125ms TTL=58
+Reply from 74.125.138.100: bytes=32 time=13ms TTL=58
+Reply from 74.125.138.100: bytes=32 time=406ms TTL=58
+Reply from 74.125.138.100: bytes=32 time=33ms TTL=58
+Request timed out.
+Reply from 74.125.138.100: bytes=32 time=10ms TTL=58
+Reply from 74.125.138.100: bytes=32 time=500ms TTL=58
+Reply from 74.125.138.100: bytes=32 time=32ms TTL=58
+Reply from 74.125.138.100: bytes=32 time=12ms TTL=58
+Reply from 74.125.138.100: bytes=32 time=16ms TTL=58
+Reply from 74.125.138.100: bytes=32 time=14ms TTL=58
+Reply from 74.125.138.100: bytes=32 time=14ms TTL=58
+Reply from 74.125.138.100: bytes=32 time=11ms TTL=58
+Reply from 74.125.138.100: bytes=32 time=11ms TTL=58
+Reply from 74.125.138.100: bytes=32 time=12ms TTL=58
+Reply from 74.125.138.100: bytes=32 time=10ms TTL=58
+Reply from 74.125.138.100: bytes=32 time=10ms TTL=58
+Reply from 74.125.138.100: bytes=32 time=13ms TTL=58
+Reply from 74.125.138.100: bytes=32 time=12ms TTL=58
+Reply from 74.125.138.100: bytes=32 time=10ms TTL=58
+Reply from 74.125.138.100: bytes=32 time=11ms TTL=58
+Reply from 74.125.138.100: bytes=32 time=12ms TTL=58
+Reply from 74.125.138.100: bytes=32 time=12ms TTL=58
+Reply from 74.125.138.100: bytes=32 time=14ms TTL=58
+Reply from 74.125.138.100: bytes=32 time=50ms TTL=58
+Reply from 74.125.138.100: bytes=32 time=11ms TTL=58
+Reply from 74.125.138.100: bytes=32 time=11ms TTL=58
+Reply from 74.125.138.100: bytes=32 time=11ms TTL=58
+Reply from 74.125.138.100: bytes=32 time=11ms TTL=58
+Reply from 74.125.138.100: bytes=32 time=11ms TTL=58
+Reply from 74.125.138.100: bytes=32 time=12ms TTL=58
+Reply from 74.125.138.100: bytes=32 time=13ms TTL=58
+Reply from 74.125.138.100: bytes=32 time=13ms TTL=58
+Reply from 74.125.138.100: bytes=32 time=12ms TTL=58
+Reply from 74.125.138.100: bytes=32 time=13ms TTL=58
+Reply from 74.125.138.100: bytes=32 time=14ms TTL=58
+Reply from 74.125.138.100: bytes=32 time=14ms TTL=58
+Reply from 74.125.138.100: bytes=32 time=14ms TTL=58
+Reply from 74.125.138.100: bytes=32 time=14ms TTL=58
+Reply from 74.125.138.100: bytes=32 time=13ms TTL=58
+Reply from 74.125.138.100: bytes=32 time=12ms TTL=58
+Reply from 74.125.138.100: bytes=32 time=11ms TTL=58
+Reply from 74.125.138.100: bytes=32 time=12ms TTL=58
+Reply from 74.125.138.100: bytes=32 time=10ms TTL=58
+Reply from 74.125.138.100: bytes=32 time=10ms TTL=58
+Reply from 74.125.138.100: bytes=32 time=12ms TTL=58
+Reply from 74.125.138.100: bytes=32 time=13ms TTL=58
+Reply from 74.125.138.100: bytes=32 time=12ms TTL=58
+Reply from 74.125.138.100: bytes=32 time=14ms TTL=58
+Reply from 74.125.138.100: bytes=32 time=14ms TTL=58
+Reply from 74.125.138.100: bytes=32 time=10ms TTL=58
+Reply from 74.125.138.100: bytes=32 time=16ms TTL=58
+Reply from 74.125.138.100: bytes=32 time=12ms TTL=58
+Reply from 74.125.138.100: bytes=32 time=11ms TTL=58
+Reply from 74.125.138.100: bytes=32 time=14ms TTL=58
+Reply from 74.125.138.100: bytes=32 time=14ms TTL=58
+Reply from 74.125.138.100: bytes=32 time=10ms TTL=58
+Reply from 74.125.138.100: bytes=32 time=174ms TTL=58
+Reply from 74.125.138.100: bytes=32 time=12ms TTL=58
+Reply from 74.125.138.100: bytes=32 time=11ms TTL=58
+Reply from 74.125.138.100: bytes=32 time=14ms TTL=58
+Reply from 74.125.138.100: bytes=32 time=11ms TTL=58
+Reply from 74.125.138.100: bytes=32 time=29ms TTL=58
+Reply from 74.125.138.100: bytes=32 time=9ms TTL=58
+Reply from 74.125.138.100: bytes=32 time=11ms TTL=58
+Reply from 74.125.138.100: bytes=32 time=13ms TTL=58
+Reply from 74.125.138.100: bytes=32 time=20ms TTL=58
+Reply from 74.125.138.100: bytes=32 time=742ms TTL=58
+Reply from 74.125.138.100: bytes=32 time=14ms TTL=58
+Reply from 74.125.138.100: bytes=32 time=12ms TTL=58
+Reply from 74.125.138.100: bytes=32 time=12ms TTL=58
+Reply from 74.125.138.100: bytes=32 time=25ms TTL=58
+Reply from 74.125.138.100: bytes=32 time=15ms TTL=58
+Reply from 74.125.138.100: bytes=32 time=149ms TTL=58
+Reply from 74.125.138.100: bytes=32 time=64ms TTL=58
+Reply from 74.125.138.100: bytes=32 time=182ms TTL=58
+Reply from 74.125.138.100: bytes=32 time=11ms TTL=58
+Reply from 74.125.138.100: bytes=32 time=12ms TTL=58
+Reply from 74.125.138.100: bytes=32 time=11ms TTL=58
+Reply from 74.125.138.100: bytes=32 time=14ms TTL=58
+Reply from 74.125.138.100: bytes=32 time=13ms TTL=58
+Reply from 74.125.138.100: bytes=32 time=12ms TTL=58
+Reply from 74.125.138.100: bytes=32 time=12ms TTL=58
+Reply from 74.125.138.100: bytes=32 time=11ms TTL=58
+
+Ping statistics for 74.125.138.100:
+    Packets: Sent = 100, Received = 99, Lost = 1 (1% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 9ms, Maximum = 742ms, Average = 53ms

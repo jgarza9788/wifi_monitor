@@ -1,0 +1,40 @@
+SSID: Error 404
+Datetime: 03/19/2025 07:08:22
+Datetime_alt: 202503190708
+Signal_Strength: 67% 
+
+Pinging google.com [2607:f8b0:4002:c10::8a] with 32 bytes of data:
+Reply from 2607:f8b0:4002:c10::8a: time=21ms 
+Reply from 2607:f8b0:4002:c10::8a: time=19ms 
+
+Ping statistics for 2607:f8b0:4002:c10::8a:
+    Packets: Sent = 2, Received = 2, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 19ms, Maximum = 21ms, Average = 20ms
+Control-C
+SSID: Error 404
+Datetime: 03/19/2025 07:08:54
+Datetime_alt: 202503190708
+Signal_Strength: 67% 
+
+Pinging google.com [2607:f8b0:4002:c03::8b] with 32 bytes of data:
+Reply from 2607:f8b0:4002:c03::8b: time=23ms 
+Reply from 2607:f8b0:4002:c03::8b: time=24ms 
+Reply from 2607:f8b0:4002:c03::8b: time=20ms 
+Reply from 2607:f8b0:4002:c03::8b: time=19ms 
+Reply from 2607:f8b0:4002:c03::8b: time=21ms 
+Reply from 2607:f8b0:4002:c03::8b: time=24ms 
+Reply from 2607:f8b0:4002:c03::8b: time=11ms 
+Reply from 2607:f8b0:4002:c03::8b: time=11ms 
+Reply from 2607:f8b0:4002:c03::8b: time=12ms 
+Reply from 2607:f8b0:4002:c03::8b: time=9ms 
+Reply from 2607:f8b0:4002:c03::8b: time=12ms 
+Reply from 2607:f8b0:4002:c03::8b: time=8ms 
+Reply from 2607:f8b0:4002:c03::8b: time=11ms 
+Reply from 2607:f8b0:4002:c03::8b: time=11ms 
+
+Ping statistics for 2607:f8b0:4002:c03::8b:
+    Packets: Sent = 14, Received = 14, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 8ms, Maximum = 24ms, Average = 15ms
+Control-C

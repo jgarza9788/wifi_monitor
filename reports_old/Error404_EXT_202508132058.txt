@@ -1,0 +1,23 @@
+SSID: Error 404_EXT
+Datetime: Wed Aug 13 08:58:21 PM EDT 2025
+Datetime_alt: 202508132058
+Signal_Strength: 72
+PING google.com (2607:f8b0:4002:c00::8a) 56 data bytes
+64 bytes from yr-in-f138.1e100.net (2607:f8b0:4002:c00::8a): icmp_seq=1 ttl=106 time=24.0 ms
+64 bytes from yr-in-f138.1e100.net (2607:f8b0:4002:c00::8a): icmp_seq=2 ttl=106 time=22.6 ms
+64 bytes from yr-in-f138.1e100.net (2607:f8b0:4002:c00::8a): icmp_seq=3 ttl=106 time=25.9 ms
+64 bytes from yr-in-f138.1e100.net (2607:f8b0:4002:c00::8a): icmp_seq=4 ttl=106 time=58.6 ms
+64 bytes from yr-in-f138.1e100.net (2607:f8b0:4002:c00::8a): icmp_seq=5 ttl=107 time=34.0 ms
+64 bytes from yr-in-f138.1e100.net (2607:f8b0:4002:c00::8a): icmp_seq=6 ttl=107 time=21.9 ms
+64 bytes from yr-in-f138.1e100.net (2607:f8b0:4002:c00::8a): icmp_seq=7 ttl=107 time=15.8 ms
+64 bytes from yr-in-f138.1e100.net (2607:f8b0:4002:c00::8a): icmp_seq=8 ttl=107 time=13.5 ms
+64 bytes from yr-in-f138.1e100.net (2607:f8b0:4002:c00::8a): icmp_seq=9 ttl=107 time=13.2 ms
+64 bytes from yr-in-f138.1e100.net (2607:f8b0:4002:c00::8a): icmp_seq=10 ttl=107 time=12.7 ms
+64 bytes from yr-in-f138.1e100.net (2607:f8b0:4002:c00::8a): icmp_seq=11 ttl=107 time=15.9 ms
+64 bytes from yr-in-f138.1e100.net (2607:f8b0:4002:c00::8a): icmp_seq=12 ttl=107 time=18.0 ms
+64 bytes from yr-in-f138.1e100.net (2607:f8b0:4002:c00::8a): icmp_seq=13 ttl=107 time=12.3 ms
+64 bytes from yr-in-f138.1e100.net (2607:f8b0:4002:c00::8a): icmp_seq=14 ttl=107 time=15.8 ms
+
+--- google.com ping statistics ---
+14 packets transmitted, 14 received, 0% packet loss, time 13020ms
+rtt min/avg/max/mdev = 12.348/21.733/58.634/11.852 ms

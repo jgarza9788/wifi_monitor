@@ -1,0 +1,5 @@
+SSID: Error 404_EXT
+Datetime: 05/20/2025 06:02:37
+Datetime_alt: 202505200602
+Signal_Strength: 87% 
+Ping request could not find host google.com. Please check the name and try again.
