@@ -43,7 +43,7 @@ def break_down_buckets(idf,column,buckets,message='',nan_value=-1):
     idf = idf.fillna(nan_value)
 
     # print('',message,'\ncolumn: ',column, '\nbuckets: ', buckets)
-    
+
     idf = pd.DataFrame(idf[column])
     idf['bucket'] = pd.cut(idf[column], bins=buckets)
     idf = idf.groupby(by='bucket',observed=False).count()
@@ -75,8 +75,8 @@ DateFilter = 202501100000 # new firmware r44715
 # DateFilter = 202503000000
 # DateFilter = 202503200000
 # DateFilter = 20250321000
-DateFilter = 20250400000
-# DateFilter = 20250415000
+# DateFilter = 20250400000
+DateFilter =   202508311000
 
 
 # In[6]:
@@ -84,7 +84,7 @@ DateFilter = 20250400000
 
 def getfirmware(ssid,dt):
     if 'NH' in ssid:
-        
+
         if dt <= 202501100810:
             return "r58881"
         elif dt > 202501100811 and dt <= 202501102101:
@@ -112,7 +112,7 @@ for i in os.listdir(RDIR):
         dt = re.findall('Datetime_alt: .*\n',text)[0]
         dt = dt.replace('Datetime_alt: ','').replace('\\n','')
         dt = int(dt)
-            
+
         if DateFilter != None:
             if dt < DateFilter:
                 #move on to next
@@ -151,7 +151,7 @@ for i in os.listdir(RDIR):
             data[wifi]['timeouts'] = []
             data[wifi]['trycount'] = []
             data[wifi]['signalstrength'] = []
-        
+
         data[wifi]['pings'].extend(pings)
         data[wifi]['timeouts'].extend([len(timeouts)])
         data[wifi]['trycount'].extend([len(trycount)])
@@ -173,7 +173,7 @@ for i in os.listdir(RDIR):
 #     f.write(f'<h>{current_datetime}</h>')
 
 #     for k in data.keys():
-        
+
 #         f.write('<p>' + '-'*20 + '</p>')
 
 #         f.write(f'<p>{k}</p>')
@@ -192,7 +192,7 @@ for i in os.listdir(RDIR):
 #         bdb = break_down_buckets(df_pings,0,[0,5,10,15,20,30,40,50,500])
 #         bdb['bar'] = bdb.percent.apply(bar)
 #         bdb = bdb.reset_index()
-        
+
 
 #         # display(bdb)
 
@@ -236,7 +236,7 @@ template = template.replace('{%report_header%}',str(current_datetime))
 segments = ''
 for k in data.keys():
     # print(f"{k=}")
-    
+
     ns = segment
 
     ns = ns.replace('{%segment_header%}',k)
@@ -311,7 +311,7 @@ for k in data.keys():
             </td>
             </tr>
         """
-        
+
     tbl += f"""
         <tr>
         <td class="col-1 text-danger">Failed</td>
