@@ -1,0 +1,111 @@
+SSID: Living Room Extension_6GHz
+Datetime: 09/01/2025 06:06:09
+Datetime_alt: 202509010606
+Signal_Strength: 86% 
+
+Pinging google.com [142.251.15.101] with 32 bytes of data:
+Reply from 142.251.15.101: bytes=32 time=14ms TTL=105
+Reply from 142.251.15.101: bytes=32 time=85ms TTL=105
+Reply from 142.251.15.101: bytes=32 time=42ms TTL=105
+Reply from 142.251.15.101: bytes=32 time=22ms TTL=105
+Reply from 142.251.15.101: bytes=32 time=14ms TTL=105
+Reply from 142.251.15.101: bytes=32 time=81ms TTL=105
+Reply from 142.251.15.101: bytes=32 time=100ms TTL=105
+Reply from 142.251.15.101: bytes=32 time=47ms TTL=105
+Reply from 142.251.15.101: bytes=32 time=40ms TTL=105
+Reply from 142.251.15.101: bytes=32 time=49ms TTL=105
+Reply from 142.251.15.101: bytes=32 time=13ms TTL=105
+Reply from 142.251.15.101: bytes=32 time=14ms TTL=105
+Reply from 142.251.15.101: bytes=32 time=22ms TTL=105
+Reply from 142.251.15.101: bytes=32 time=14ms TTL=105
+Reply from 142.251.15.101: bytes=32 time=13ms TTL=105
+Reply from 142.251.15.101: bytes=32 time=14ms TTL=105
+Reply from 142.251.15.101: bytes=32 time=41ms TTL=105
+Reply from 142.251.15.101: bytes=32 time=39ms TTL=105
+Reply from 142.251.15.101: bytes=32 time=39ms TTL=105
+Reply from 142.251.15.101: bytes=32 time=94ms TTL=105
+Reply from 142.251.15.101: bytes=32 time=114ms TTL=105
+Reply from 142.251.15.101: bytes=32 time=63ms TTL=105
+Reply from 142.251.15.101: bytes=32 time=13ms TTL=105
+Reply from 142.251.15.101: bytes=32 time=66ms TTL=105
+Reply from 142.251.15.101: bytes=32 time=15ms TTL=105
+Reply from 142.251.15.101: bytes=32 time=16ms TTL=105
+Reply from 142.251.15.101: bytes=32 time=13ms TTL=105
+Reply from 142.251.15.101: bytes=32 time=15ms TTL=105
+Reply from 142.251.15.101: bytes=32 time=13ms TTL=105
+Reply from 142.251.15.101: bytes=32 time=53ms TTL=105
+Reply from 142.251.15.101: bytes=32 time=33ms TTL=105
+Reply from 142.251.15.101: bytes=32 time=41ms TTL=105
+Reply from 142.251.15.101: bytes=32 time=15ms TTL=105
+Reply from 142.251.15.101: bytes=32 time=41ms TTL=105
+Reply from 142.251.15.101: bytes=32 time=125ms TTL=105
+Reply from 142.251.15.101: bytes=32 time=16ms TTL=105
+Reply from 142.251.15.101: bytes=32 time=11ms TTL=105
+Reply from 142.251.15.101: bytes=32 time=61ms TTL=105
+Reply from 142.251.15.101: bytes=32 time=13ms TTL=105
+Reply from 142.251.15.101: bytes=32 time=14ms TTL=105
+Reply from 142.251.15.101: bytes=32 time=14ms TTL=105
+Reply from 142.251.15.101: bytes=32 time=53ms TTL=105
+Reply from 142.251.15.101: bytes=32 time=71ms TTL=105
+Reply from 142.251.15.101: bytes=32 time=17ms TTL=105
+Reply from 142.251.15.101: bytes=32 time=15ms TTL=105
+Reply from 142.251.15.101: bytes=32 time=70ms TTL=105
+Reply from 142.251.15.101: bytes=32 time=123ms TTL=105
+Reply from 142.251.15.101: bytes=32 time=15ms TTL=105
+Reply from 142.251.15.101: bytes=32 time=15ms TTL=105
+Reply from 142.251.15.101: bytes=32 time=14ms TTL=105
+Reply from 142.251.15.101: bytes=32 time=14ms TTL=105
+Reply from 142.251.15.101: bytes=32 time=16ms TTL=105
+Reply from 142.251.15.101: bytes=32 time=12ms TTL=105
+Reply from 142.251.15.101: bytes=32 time=15ms TTL=105
+Reply from 142.251.15.101: bytes=32 time=67ms TTL=105
+Reply from 142.251.15.101: bytes=32 time=37ms TTL=105
+Reply from 142.251.15.101: bytes=32 time=15ms TTL=105
+Reply from 142.251.15.101: bytes=32 time=65ms TTL=105
+Reply from 142.251.15.101: bytes=32 time=126ms TTL=105
+Reply from 142.251.15.101: bytes=32 time=42ms TTL=105
+Reply from 142.251.15.101: bytes=32 time=44ms TTL=105
+Reply from 142.251.15.101: bytes=32 time=13ms TTL=105
+Reply from 142.251.15.101: bytes=32 time=12ms TTL=105
+Reply from 142.251.15.101: bytes=32 time=14ms TTL=105
+Reply from 142.251.15.101: bytes=32 time=26ms TTL=105
+Reply from 142.251.15.101: bytes=32 time=14ms TTL=105
+Reply from 142.251.15.101: bytes=32 time=13ms TTL=105
+Reply from 142.251.15.101: bytes=32 time=37ms TTL=105
+Reply from 142.251.15.101: bytes=32 time=72ms TTL=105
+Reply from 142.251.15.101: bytes=32 time=12ms TTL=105
+Reply from 142.251.15.101: bytes=32 time=26ms TTL=105
+Reply from 142.251.15.101: bytes=32 time=123ms TTL=105
+Reply from 142.251.15.101: bytes=32 time=132ms TTL=105
+Reply from 142.251.15.101: bytes=32 time=15ms TTL=105
+Reply from 142.251.15.101: bytes=32 time=12ms TTL=105
+Reply from 142.251.15.101: bytes=32 time=11ms TTL=105
+Reply from 142.251.15.101: bytes=32 time=34ms TTL=105
+Reply from 142.251.15.101: bytes=32 time=17ms TTL=105
+Reply from 142.251.15.101: bytes=32 time=16ms TTL=105
+Reply from 142.251.15.101: bytes=32 time=66ms TTL=105
+Reply from 142.251.15.101: bytes=32 time=22ms TTL=105
+Reply from 142.251.15.101: bytes=32 time=36ms TTL=105
+Reply from 142.251.15.101: bytes=32 time=42ms TTL=105
+Reply from 142.251.15.101: bytes=32 time=13ms TTL=105
+Reply from 142.251.15.101: bytes=32 time=70ms TTL=105
+Reply from 142.251.15.101: bytes=32 time=134ms TTL=105
+Reply from 142.251.15.101: bytes=32 time=13ms TTL=105
+Reply from 142.251.15.101: bytes=32 time=13ms TTL=105
+Reply from 142.251.15.101: bytes=32 time=45ms TTL=105
+Reply from 142.251.15.101: bytes=32 time=28ms TTL=105
+Reply from 142.251.15.101: bytes=32 time=12ms TTL=105
+Reply from 142.251.15.101: bytes=32 time=15ms TTL=105
+Reply from 142.251.15.101: bytes=32 time=34ms TTL=105
+Reply from 142.251.15.101: bytes=32 time=46ms TTL=105
+Reply from 142.251.15.101: bytes=32 time=86ms TTL=105
+Reply from 142.251.15.101: bytes=32 time=16ms TTL=105
+Reply from 142.251.15.101: bytes=32 time=13ms TTL=105
+Reply from 142.251.15.101: bytes=32 time=26ms TTL=105
+Reply from 142.251.15.101: bytes=32 time=13ms TTL=105
+Reply from 142.251.15.101: bytes=32 time=66ms TTL=105
+
+Ping statistics for 142.251.15.101:
+    Packets: Sent = 100, Received = 100, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 11ms, Maximum = 134ms, Average = 38ms

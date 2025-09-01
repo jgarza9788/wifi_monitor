@@ -1,0 +1,111 @@
+SSID: Error 404
+Datetime: 03/15/2025 23:27:54
+Datetime_alt: 202503152327
+Signal_Strength: 59% 
+
+Pinging google.com [2607:f8b0:4002:c03::8a] with 32 bytes of data:
+Reply from 2607:f8b0:4002:c03::8a: time=93ms 
+Reply from 2607:f8b0:4002:c03::8a: time=175ms 
+Request timed out.
+Reply from 2607:f8b0:4002:c03::8a: time=116ms 
+Reply from 2607:f8b0:4002:c03::8a: time=171ms 
+Reply from 2607:f8b0:4002:c03::8a: time=1282ms 
+Reply from 2607:f8b0:4002:c03::8a: time=386ms 
+Reply from 2607:f8b0:4002:c03::8a: time=63ms 
+Reply from 2607:f8b0:4002:c03::8a: time=31ms 
+Reply from 2607:f8b0:4002:c03::8a: time=64ms 
+Reply from 2607:f8b0:4002:c03::8a: time=73ms 
+Request timed out.
+Reply from 2607:f8b0:4002:c03::8a: time=57ms 
+Reply from 2607:f8b0:4002:c03::8a: time=26ms 
+Reply from 2607:f8b0:4002:c03::8a: time=21ms 
+Reply from 2607:f8b0:4002:c03::8a: time=133ms 
+Reply from 2607:f8b0:4002:c03::8a: time=25ms 
+Reply from 2607:f8b0:4002:c03::8a: time=28ms 
+Reply from 2607:f8b0:4002:c03::8a: time=69ms 
+Reply from 2607:f8b0:4002:c03::8a: time=205ms 
+Reply from 2607:f8b0:4002:c03::8a: time=194ms 
+Reply from 2607:f8b0:4002:c03::8a: time=164ms 
+Reply from 2607:f8b0:4002:c03::8a: time=307ms 
+Reply from 2607:f8b0:4002:c03::8a: time=163ms 
+Reply from 2607:f8b0:4002:c03::8a: time=14ms 
+Reply from 2607:f8b0:4002:c03::8a: time=185ms 
+Reply from 2607:f8b0:4002:c03::8a: time=32ms 
+Reply from 2607:f8b0:4002:c03::8a: time=30ms 
+Reply from 2607:f8b0:4002:c03::8a: time=212ms 
+Reply from 2607:f8b0:4002:c03::8a: time=136ms 
+Reply from 2607:f8b0:4002:c03::8a: time=138ms 
+Reply from 2607:f8b0:4002:c03::8a: time=127ms 
+Reply from 2607:f8b0:4002:c03::8a: time=160ms 
+Reply from 2607:f8b0:4002:c03::8a: time=1240ms 
+Reply from 2607:f8b0:4002:c03::8a: time=42ms 
+Reply from 2607:f8b0:4002:c03::8a: time=305ms 
+Reply from 2607:f8b0:4002:c03::8a: time=488ms 
+Reply from 2607:f8b0:4002:c03::8a: time=68ms 
+Reply from 2607:f8b0:4002:c03::8a: time=201ms 
+Reply from 2607:f8b0:4002:c03::8a: time=45ms 
+Reply from 2607:f8b0:4002:c03::8a: time=170ms 
+Reply from 2607:f8b0:4002:c03::8a: time=102ms 
+Reply from 2607:f8b0:4002:c03::8a: time=80ms 
+Reply from 2607:f8b0:4002:c03::8a: time=221ms 
+Reply from 2607:f8b0:4002:c03::8a: time=91ms 
+Reply from 2607:f8b0:4002:c03::8a: time=864ms 
+Reply from 2607:f8b0:4002:c03::8a: time=149ms 
+Reply from 2607:f8b0:4002:c03::8a: time=64ms 
+Reply from 2607:f8b0:4002:c03::8a: time=2874ms 
+Reply from 2607:f8b0:4002:c03::8a: time=2242ms 
+Reply from 2607:f8b0:4002:c03::8a: time=39ms 
+Reply from 2607:f8b0:4002:c03::8a: time=118ms 
+Reply from 2607:f8b0:4002:c03::8a: time=22ms 
+Reply from 2607:f8b0:4002:c03::8a: time=80ms 
+Reply from 2607:f8b0:4002:c03::8a: time=115ms 
+Reply from 2607:f8b0:4002:c03::8a: time=52ms 
+Reply from 2607:f8b0:4002:c03::8a: time=85ms 
+Reply from 2607:f8b0:4002:c03::8a: time=204ms 
+Reply from 2607:f8b0:4002:c03::8a: time=179ms 
+Reply from 2607:f8b0:4002:c03::8a: time=47ms 
+Reply from 2607:f8b0:4002:c03::8a: time=203ms 
+Reply from 2607:f8b0:4002:c03::8a: time=118ms 
+Reply from 2607:f8b0:4002:c03::8a: time=27ms 
+Reply from 2607:f8b0:4002:c03::8a: time=39ms 
+Request timed out.
+Reply from 2607:f8b0:4002:c03::8a: time=49ms 
+Reply from 2607:f8b0:4002:c03::8a: time=167ms 
+Reply from 2607:f8b0:4002:c03::8a: time=156ms 
+Reply from 2607:f8b0:4002:c03::8a: time=47ms 
+Reply from 2607:f8b0:4002:c03::8a: time=120ms 
+Reply from 2607:f8b0:4002:c03::8a: time=168ms 
+Reply from 2607:f8b0:4002:c03::8a: time=77ms 
+Reply from 2607:f8b0:4002:c03::8a: time=138ms 
+Reply from 2607:f8b0:4002:c03::8a: time=75ms 
+Reply from 2607:f8b0:4002:c03::8a: time=38ms 
+Reply from 2607:f8b0:4002:c03::8a: time=1333ms 
+Reply from 2607:f8b0:4002:c03::8a: time=42ms 
+Reply from 2607:f8b0:4002:c03::8a: time=141ms 
+Reply from 2607:f8b0:4002:c03::8a: time=140ms 
+Reply from 2607:f8b0:4002:c03::8a: time=58ms 
+Request timed out.
+Reply from 2607:f8b0:4002:c03::8a: time=110ms 
+Reply from 2607:f8b0:4002:c03::8a: time=1550ms 
+Reply from 2607:f8b0:4002:c03::8a: time=867ms 
+Reply from 2607:f8b0:4002:c03::8a: time=39ms 
+Reply from 2607:f8b0:4002:c03::8a: time=63ms 
+Reply from 2607:f8b0:4002:c03::8a: time=120ms 
+Reply from 2607:f8b0:4002:c03::8a: time=135ms 
+Reply from 2607:f8b0:4002:c03::8a: time=55ms 
+Reply from 2607:f8b0:4002:c03::8a: time=123ms 
+Request timed out.
+Reply from 2607:f8b0:4002:c03::8a: time=66ms 
+Reply from 2607:f8b0:4002:c03::8a: time=102ms 
+Reply from 2607:f8b0:4002:c03::8a: time=386ms 
+Reply from 2607:f8b0:4002:c03::8a: time=109ms 
+Reply from 2607:f8b0:4002:c03::8a: time=71ms 
+Reply from 2607:f8b0:4002:c03::8a: time=9ms 
+Reply from 2607:f8b0:4002:c03::8a: time=10ms 
+Reply from 2607:f8b0:4002:c03::8a: time=11ms 
+Reply from 2607:f8b0:4002:c03::8a: time=10ms 
+
+Ping statistics for 2607:f8b0:4002:c03::8a:
+    Packets: Sent = 100, Received = 95, Lost = 5 (5% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 9ms, Maximum = 2874ms, Average = 231ms

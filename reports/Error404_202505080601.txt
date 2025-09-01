@@ -1,0 +1,111 @@
+SSID: Error 404
+Datetime: 05/08/2025 06:01:35
+Datetime_alt: 202505080601
+Signal_Strength: 78% 
+
+Pinging google.com [2607:f8b0:4002:c03::8b] with 32 bytes of data:
+Reply from 2607:f8b0:4002:c03::8b: time=9ms 
+Reply from 2607:f8b0:4002:c03::8b: time=48ms 
+Reply from 2607:f8b0:4002:c03::8b: time=36ms 
+Reply from 2607:f8b0:4002:c03::8b: time=12ms 
+Reply from 2607:f8b0:4002:c03::8b: time=88ms 
+Reply from 2607:f8b0:4002:c03::8b: time=33ms 
+Reply from 2607:f8b0:4002:c03::8b: time=36ms 
+Reply from 2607:f8b0:4002:c03::8b: time=11ms 
+Reply from 2607:f8b0:4002:c03::8b: time=32ms 
+Reply from 2607:f8b0:4002:c03::8b: time=115ms 
+Reply from 2607:f8b0:4002:c03::8b: time=35ms 
+Reply from 2607:f8b0:4002:c03::8b: time=27ms 
+Reply from 2607:f8b0:4002:c03::8b: time=11ms 
+Reply from 2607:f8b0:4002:c03::8b: time=34ms 
+Reply from 2607:f8b0:4002:c03::8b: time=36ms 
+Reply from 2607:f8b0:4002:c03::8b: time=17ms 
+Reply from 2607:f8b0:4002:c03::8b: time=92ms 
+Reply from 2607:f8b0:4002:c03::8b: time=12ms 
+Reply from 2607:f8b0:4002:c03::8b: time=11ms 
+Reply from 2607:f8b0:4002:c03::8b: time=25ms 
+Reply from 2607:f8b0:4002:c03::8b: time=39ms 
+Reply from 2607:f8b0:4002:c03::8b: time=34ms 
+General failure.
+Request timed out.
+PING: transmit failed. General failure. 
+PING: transmit failed. General failure. 
+PING: transmit failed. General failure. 
+PING: transmit failed. General failure. 
+PING: transmit failed. General failure. 
+PING: transmit failed. General failure. 
+PING: transmit failed. General failure. 
+PING: transmit failed. General failure. 
+PING: transmit failed. General failure. 
+PING: transmit failed. General failure. 
+PING: transmit failed. General failure. 
+PING: transmit failed. General failure. 
+PING: transmit failed. General failure. 
+PING: transmit failed. General failure. 
+PING: transmit failed. General failure. 
+PING: transmit failed. General failure. 
+PING: transmit failed. General failure. 
+PING: transmit failed. General failure. 
+PING: transmit failed. General failure. 
+PING: transmit failed. General failure. 
+PING: transmit failed. General failure. 
+PING: transmit failed. General failure. 
+PING: transmit failed. General failure. 
+PING: transmit failed. General failure. 
+PING: transmit failed. General failure. 
+PING: transmit failed. General failure. 
+PING: transmit failed. General failure. 
+PING: transmit failed. General failure. 
+PING: transmit failed. General failure. 
+PING: transmit failed. General failure. 
+PING: transmit failed. General failure. 
+PING: transmit failed. General failure. 
+PING: transmit failed. General failure. 
+PING: transmit failed. General failure. 
+PING: transmit failed. General failure. 
+PING: transmit failed. General failure. 
+PING: transmit failed. General failure. 
+PING: transmit failed. General failure. 
+PING: transmit failed. General failure. 
+PING: transmit failed. General failure. 
+PING: transmit failed. General failure. 
+PING: transmit failed. General failure. 
+PING: transmit failed. General failure. 
+PING: transmit failed. General failure. 
+PING: transmit failed. General failure. 
+PING: transmit failed. General failure. 
+PING: transmit failed. General failure. 
+PING: transmit failed. General failure. 
+PING: transmit failed. General failure. 
+PING: transmit failed. General failure. 
+PING: transmit failed. General failure. 
+PING: transmit failed. General failure. 
+PING: transmit failed. General failure. 
+PING: transmit failed. General failure. 
+PING: transmit failed. General failure. 
+PING: transmit failed. General failure. 
+PING: transmit failed. General failure. 
+PING: transmit failed. General failure. 
+PING: transmit failed. General failure. 
+PING: transmit failed. General failure. 
+PING: transmit failed. General failure. 
+PING: transmit failed. General failure. 
+PING: transmit failed. General failure. 
+PING: transmit failed. General failure. 
+PING: transmit failed. General failure. 
+PING: transmit failed. General failure. 
+PING: transmit failed. General failure. 
+PING: transmit failed. General failure. 
+PING: transmit failed. General failure. 
+PING: transmit failed. General failure. 
+PING: transmit failed. General failure. 
+PING: transmit failed. General failure. 
+PING: transmit failed. General failure. 
+PING: transmit failed. General failure. 
+PING: transmit failed. General failure. 
+PING: transmit failed. General failure. 
+
+Ping statistics for 2607:f8b0:4002:c03::8b:
+    Packets: Sent = 100, Received = 22, Lost = 78 (78% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 9ms, Maximum = 115ms, Average = 36ms

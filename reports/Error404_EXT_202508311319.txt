@@ -1,0 +1,15 @@
+SSID: Error 404_EXT
+Datetime: Sun Aug 31 01:19:51 PM EDT 2025
+Datetime_alt: 202508311319
+Signal_Strength: 66
+PING google.com (2607:f8b0:4002:c1b::8b) 56 data bytes
+64 bytes from yt-in-f139.1e100.net (2607:f8b0:4002:c1b::8b): icmp_seq=1 ttl=108 time=339 ms
+64 bytes from yt-in-f139.1e100.net (2607:f8b0:4002:c1b::8b): icmp_seq=2 ttl=108 time=14.0 ms
+64 bytes from yt-in-f139.1e100.net (2607:f8b0:4002:c1b::8b): icmp_seq=3 ttl=108 time=12.7 ms
+64 bytes from yt-in-f139.1e100.net (2607:f8b0:4002:c1b::8b): icmp_seq=4 ttl=108 time=15.4 ms
+64 bytes from yt-in-f139.1e100.net (2607:f8b0:4002:c1b::8b): icmp_seq=5 ttl=108 time=14.4 ms
+64 bytes from yt-in-f139.1e100.net (2607:f8b0:4002:c1b::8b): icmp_seq=6 ttl=108 time=13.8 ms
+
+--- google.com ping statistics ---
+6 packets transmitted, 6 received, 0% packet loss, time 5007ms
+rtt min/avg/max/mdev = 12.671/68.241/339.136/121.150 ms

@@ -2,7 +2,7 @@
 $thisDate = Get-Date
 
 
-# $SSIDs = @("Error 404", "Error 404 NH", "Error 404_EXT","Living Room Extension","Living Room Extension_6GHz")
+# $SSIDs = @("Error 404", "Error 404 NH", "Error 404_EXT")
 $SSIDs = @("Error 404", "Error 404_EXT","Living Room Extension","Living Room Extension_6GHz")
 
 $WIV = Start-Process ".\wifiinfoview\WifiInfoView.exe" -PassThru
@@ -59,4 +59,3 @@ jupyter nbconvert --to python --execute reports.ipynb
 DoGit
 
 $WIV.kill()
-

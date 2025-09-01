@@ -1,0 +1,5 @@
+SSID: Error 404 NH
+Datetime: 09/01/2025 06:02:07
+Datetime_alt: 202509010602
+Signal_Strength: 94% 
+Ping request could not find host google.com. Please check the name and try again.
