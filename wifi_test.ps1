@@ -3,11 +3,8 @@ $thisDate = Get-Date
 
 
 # $SSIDs = @("Error 404", "Error 404 NH", "Error 404_EXT")
-<<<<<<< HEAD
+# $SSIDs = @("Error 404", "Error 404 NH", "Error 404_EXT","Living Room Extension","Living Room Extension_6GHz")
 $SSIDs = @("Error 404", "Error 404_EXT","Living Room Extension","Living Room Extension_6GHz")
-=======
-$SSIDs = @("Error 404", "Error 404 NH", "Error 404_EXT","Living Room Extension","Living Room Extension_6GHz")
->>>>>>> 506941fff25ebe70dbf93d13611fd8fd8b88bd57
 
 $WIV = Start-Process ".\wifiinfoview\WifiInfoView.exe" -PassThru
 Start-Sleep -Seconds 5
