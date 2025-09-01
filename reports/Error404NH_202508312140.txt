@@ -1,0 +1,4 @@
+SSID: Error 404 NH
+Datetime: Sun 31 Aug 2025 09:40:36 PM EDT
+Datetime_alt: 202508312140
+Signal_Strength: 65

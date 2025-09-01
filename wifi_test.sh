@@ -1,9 +1,9 @@
 networks=(
-    "Error 404" 
-    "Error 404_EXT" 
+    # "Error 404" 
+    # "Error 404_EXT" 
     "Error 404 NH" 
-    "Living Room Extension" 
-    "Living Room Extension_6GHz"
+    # "Living Room Extension" 
+    # "Living Room Extension_6GHz"
 )
 
 for net in "${networks[@]}"; do
