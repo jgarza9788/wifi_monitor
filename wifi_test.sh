@@ -1,9 +1,9 @@
 networks=(
-    # "Error 404" 
-    # "Error 404_EXT" 
-    "Error 404 NH" 
-    # "Living Room Extension" 
-    # "Living Room Extension_6GHz"
+    "Error 404" 
+    "Error 404_EXT" 
+    # "Error 404 NH" 
+    "Living Room Extension" 
+    "Living Room Extension_6GHz"
 )
 
 for net in "${networks[@]}"; do
@@ -18,3 +18,5 @@ for net in "${networks[@]}"; do
     git push
     echo ""
 done
+
+nmcli dev wifi connect "Error 404_EXT" 
