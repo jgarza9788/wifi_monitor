@@ -71,31 +71,10 @@ def bar(num,denom=100.0,length=30,fillchar='█',emptychar='░'):
 # YYYYMMDDHHmm
 DateFilter = None
 DateFilter = 202501100000 # new firmware r44715
-# DateFilter = 202501160000 # changed some settings in Error 404 NH
-# DateFilter = 202503000000
-# DateFilter = 202503200000
-# DateFilter = 20250321000
-# DateFilter = 20250400000
-DateFilter =   202508311000
+DateFilter =   202508312000
 
 
 # In[6]:
-
-
-def getfirmware(ssid,dt):
-    if 'NH' in ssid:
-
-        if dt <= 202501100810:
-            return "r58881"
-        elif dt > 202501100811 and dt <= 202501102101:
-            return "r44715"
-        elif dt > 202501102101 : #and dt <= 203000000000:
-            return "r58881"
-    else:
-        return ""
-
-
-# In[7]:
 
 
 data = {}
@@ -116,7 +95,7 @@ for i in os.listdir(RDIR):
         if DateFilter != None:
             if dt < DateFilter:
                 #move on to next
-                print('exclude',dt,DateFilter)
+                # print('exclude',dt,DateFilter)
                 continue
             else:
                 print('include',dt,DateFilter)
@@ -128,7 +107,7 @@ for i in os.listdir(RDIR):
         pings = re.findall('.*time=.*\n',text)
         pings = [ re.sub('.*time=','',p) for p in pings]
         pings = [ re.sub('ms.*\n','',p) for p in pings]
-        pings = [ int(p) for p in pings]
+        pings = [ float(p.strip()) for p in pings]
         # print(*pings,sep='\n')
 
 
@@ -159,53 +138,20 @@ for i in os.listdir(RDIR):
         if signalstrength != None:
             data[wifi]['signalstrength'].append(int(signalstrength))
 
+
+
     except Exception as e:
         pass
         print(i,e)
 
 
+# In[7]:
+
+
+print(data)
+
+
 # In[8]:
-
-
-# file = os.path.join(DIR,'docs','index.html')
-# with open(file,'w',encoding='utf8') as f:
-
-#     f.write(f'<h>{current_datetime}</h>')
-
-#     for k in data.keys():
-
-#         f.write('<p>' + '-'*20 + '</p>')
-
-#         f.write(f'<p>{k}</p>')
-#         df_pings = pd.DataFrame(data[k]['pings'])
-
-#         csvlines = df_pings.describe().to_csv()
-#         f.write(csvlines[4::].replace('\n','<br \>').replace(',','\t'))
-
-#         f.write('<br \>')
-#         f.write(f'Signal Strength (min) {min(data[k]["signalstrength"])}<br \>')
-#         f.write(f'Signal Strength (mean) {sum(data[k]["signalstrength"])/len(data[k]["signalstrength"]):.2f}<br \>')
-#         f.write(f'Signal Strength (max) {max(data[k]["signalstrength"])}<br \>')
-
-#         # print(df_pings)
-
-#         bdb = break_down_buckets(df_pings,0,[0,5,10,15,20,30,40,50,500])
-#         bdb['bar'] = bdb.percent.apply(bar)
-#         bdb = bdb.reset_index()
-
-
-#         # display(bdb)
-
-#         f.write('<br \>')
-#         f.write(bdb.to_html(index=False))
-#         f.write('<br \>')
-
-#         f.write(f'Request timed out (failed pings):<br \>')
-#         f.write(f'{ sum(data[k]['timeouts']) } out of { sum(data[k]['trycount']) }<br \>')
-#         f.write(f'{ sum(data[k]['timeouts']) / sum(data[k]['trycount']) }')
-
-
-# In[9]:
 
 
 segment = """
@@ -224,7 +170,7 @@ segment = """
 """
 
 
-# In[10]:
+# In[9]:
 
 
 template = ''
@@ -268,9 +214,9 @@ for k in data.keys():
         bdb['bar'] = bdb.percent.apply(bar)
         bdb = bdb.reset_index()
     except Exception as e:
-        print(f"k")
+        # print(f"k")
         print(data[k])
-        # print(str(e))
+        print(str(e))
         # print(f'Error: {e}')
         continue
 
@@ -278,7 +224,11 @@ for k in data.keys():
     # ns = ns.replace('\"dataframe\"','\"table table-dark table-striped\"')
 
     failed_pings = sum(data[k]['timeouts'])
-    failed_percent = f"{failed_pings/sum(data[k]['trycount']):.0f}"
+    failed_percent = "0"
+    try:
+        failed_percent = f"{failed_pings/sum(data[k]['trycount']):.0f}"
+    except:
+        pass
 
     tbl = ''
     tbl += '<table class="table table-dark table-stripedx">\n'
