@@ -33,3 +33,8 @@ Radio Mode: Repeater bridge
 
 ## for the IP Allocation settings
 192.168.1.254 -> login -> home network -> IP Allocation
+
+# update GH token
+````
+echo "TOKEN HERE" | gh auth login --with-token
+```
