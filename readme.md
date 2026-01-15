@@ -38,3 +38,9 @@ Radio Mode: Repeater bridge
 ````
 echo "TOKEN HERE" | gh auth login --with-token
 ```
+
+# a better way to update the token 
+* run on the server or with GUI
+```
+gh auth refresh -s repo
+```
