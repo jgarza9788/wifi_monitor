@@ -1,5 +1,6 @@
 networks=(
     "Error 404" 
+    "Error 404+" 
     "Error 404_EXT" 
     # "Error 404 NH" 
     "Living Room Extension" 
@@ -19,4 +20,4 @@ for net in "${networks[@]}"; do
     echo ""
 done
 
-nmcli dev wifi connect "Error 404_EXT" 
+nmcli dev wifi connect "Error 404+" 
